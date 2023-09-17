@@ -11,6 +11,7 @@ import MapComp from "@pages/map";
 import EventComp from "@pages/event";
 import FirstComp from "@pages/first";
 
+import styles from "@styles/index.module.scss";
 function App() {
   return (
     <BrowserRouter>
@@ -25,7 +26,7 @@ function App() {
 function IndexComp() {
   const navigate = useNavigate();
   return (
-    <div>
+    <div className={styles.main}>
       <Routes>
         {/* <Route path="*" element={<ErrorComp />} /> */}
         <Route path="/" element={<FirstComp navigate={navigate} />} />

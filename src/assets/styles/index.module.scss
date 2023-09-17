@@ -1,17 +1,20 @@
 @import "main";
 
-.root {
+.main {
   max-width: 450px;
-  max-height: 740;
+  width: 100vw;
+  height: 100vh;
+  max-height: 1200px;
   position: absolute;
   top: 0px;
   left: 0px;
+  overflow: hidden;
 }
 
 .navBar {
   width: 100vw;
   height: 50px;
-  min-height: 10%;
+  // min-height: 5%;
   background-color: black;
   position: absolute;
   bottom: 0px;
@@ -30,4 +33,11 @@
   background-color: transparent;
   border: none;
   font-size: 12px;
+}
+
+.section {
+  overflow: hidden auto;
+  height: calc(100vh - 50px);
+  width: 100vw;
+  margin-bottom: 50px;
 }
