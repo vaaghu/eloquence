@@ -16,7 +16,7 @@ export default function NavBar({ navigate }) {
       </button>
       <button onClick={() => navigate("./event")} className={styles.buttons}>
         <img src={event} />
-        feed
+        event
       </button>
       <button onClick={() => navigate("./map")} className={styles.buttons}>
         <img src={location} />
