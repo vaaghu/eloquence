@@ -1,0 +1,33 @@
+@import "main";
+
+.root {
+  max-width: 450px;
+  max-height: 740;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.navBar {
+  width: 100vw;
+  height: 50px;
+  min-height: 10%;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  @include flex(row, space-evenly, center);
+  z-index: 0;
+}
+
+.buttons {
+  img {
+    width: 30px;
+    height: auto;
+  }
+  color: white;
+  @include flex(column, center, center);
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+}
