@@ -19,7 +19,7 @@
   height: 35px;
   width: 100%;
   margin: 2px;
-  transform: translateY(-35px);
+  transform: translateY(-38px);
   background-color: rgba(0, 0, 0, 0.6);
   p {
     text-align: center;
@@ -30,4 +30,5 @@
 }
 .eventsContainer {
   @include flex(column, flex-start, center);
+  margin-bottom: 80px;
 }

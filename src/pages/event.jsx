@@ -32,12 +32,8 @@ export default function EventComp() {
         />
       </div>
       <div className={styles2.eventsContainer}>
-        {eventCards.map((element, index) => (
-          <EventCard
-            key={index}
-            data={element}
-            isLeft={index % 2 == 0 ? true : false}
-          />
+        {eventCards.map((element) => (
+          <EventCard key={element.id} data={element} />
         ))}
         {(!eventCards || eventCards.length == 0) && <p>no event</p>}
       </div>
