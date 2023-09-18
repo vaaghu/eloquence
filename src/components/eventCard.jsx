@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import styles from "@styles/event.module.scss";
 // const imagesPath = "@image";
 
-export default function EventCard({ data }) {
+export default function EventCard({ data, navigate }) {
   const [image, setImage] = useState(null);
   useEffect(() => {
     import(`../assets/images/${data.imageId}.jpeg`)
@@ -14,8 +14,12 @@ export default function EventCard({ data }) {
         console.error("Error loading image:", error);
       });
   }, []);
+  let displayInfo = () => {
+    localStorage.setItem("eventInfo", JSON.stringify(data));
+    navigate("../eventInfo");
+  };
   return (
-    <div className={styles.eventCard}>
+    <div className={styles.eventCard} onClick={displayInfo}>
       <img src={image} />
       <div className={styles.info}>
         <p>{data.title}</p>
@@ -25,5 +29,5 @@ export default function EventCard({ data }) {
 }
 EventCard.propTypes = {
   data: PropTypes.object.isRequired,
-  isLeft: PropTypes.bool.isRequired,
+  navigate: PropTypes.func.isRequired,
 };

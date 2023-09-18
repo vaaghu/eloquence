@@ -14,13 +14,15 @@ export default function HomeComp() {
           rel="author noreferrer"
           target="_blank"
         >
-          Vaaghu <img src={link} />
+          <img src={link} /> Vaaghu
         </a>
+        <br />
         <a className={styles2.anchore} href="" rel="author" target="_blank">
-          Riayz <img src={link} />
+          <img src={link} /> Riayz
         </a>
+        <br />
         <a className={styles2.anchore} href="" rel="author" target="_blank">
-          keerthana <img src={link} />
+          <img src={link} /> keerthana
         </a>
       </div>
     </section>
