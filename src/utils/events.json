@@ -1,27 +1,27 @@
 [
   {
     "title": "event1",
-    "description": "jskfe sfe skljf lskefj ;p'kef s;olef lkg ;lfa  a;lk,wf; ;alwfjm a;lsf a",
-    "imageId": "chess.jpeg"
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod doloremque fugit fugiat, neque officia voluptas quas. Eaque ex, nam accusantium laudantium officia obcaecati corrupti consequuntur adipisci numquam quidem! Quam, veritatis!",
+    "imageId": "chess"
   },
   {
     "title": "event2",
-    "description": "jskfe sfe skljf lskefj ",
-    "imageId": "chess.jpeg"
+    "description": "jskfe sfe skljf lskefj skjfh sjef ksjhef kjsopg;lrk g[p'; ;'rgf ",
+    "imageId": "chess"
   },
   {
     "title": "event3",
     "description": "jskfe sfe skljf lskefj ;wfjm a;lsf a",
-    "imageId": "chess.jpeg"
+    "imageId": "chess"
   },
   {
     "title": "event4",
     "description": "jskfe sfe skl s;olef lkg ;lfa  a;lk,wf; ;alwfjm a;lsf a",
-    "imageId": "chess.jpeg"
+    "imageId": "chess"
   },
   {
     "title": "event5",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "chess.jpeg"
+    "imageId": "chess"
   }
 ]

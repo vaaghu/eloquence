@@ -1,0 +1,30 @@
+@import "main";
+
+.eventCard {
+  @include flex(row, space-between, center);
+  border: solid 1px white;
+  width: 90vw;
+  height: 200px;
+  border-radius: 15px;
+  margin: 10px 5px;
+  img {
+    width: 200px;
+    height: 200px;
+    filter: opacity(0.8);
+  }
+}
+.info {
+  @include flex(column, flex-start, center);
+  height: 100%;
+  margin: 2px;
+  p {
+    text-align: center;
+  }
+  p:nth-child(2) {
+    font-size: 14px;
+    overflow: hidden;
+  }
+}
+.eventsContainer {
+  @include flex(column, flex-start, center);
+}

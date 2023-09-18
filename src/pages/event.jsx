@@ -4,7 +4,7 @@ import EventCard from "@components/eventCard";
 import eventsData from "@utils/events.json";
 
 import styles1 from "@styles/index.module.scss";
-
+import styles2 from "@styles/event.module.scss";
 export default function EventComp() {
   const [eventCards, setEventCards] = useState(eventsData);
   let filter = (event) => {
@@ -31,9 +31,13 @@ export default function EventComp() {
           onBlur={filter}
         />
       </div>
-      <div>
+      <div className={styles2.eventsContainer}>
         {eventCards.map((element, index) => (
-          <EventCard key={index} data={element} />
+          <EventCard
+            key={index}
+            data={element}
+            isLeft={index % 2 == 0 ? true : false}
+          />
         ))}
         {(!eventCards || eventCards.length == 0) && <p>no event</p>}
       </div>

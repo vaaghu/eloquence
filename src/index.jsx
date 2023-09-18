@@ -31,7 +31,7 @@ function IndexComp() {
         {/* <Route path="*" element={<ErrorComp />} /> */}
         <Route path="/" element={<FirstComp navigate={navigate} />} />
         <Route path="/home" element={<HomeComp navigate={navigate} />} />
-        <Route path="/map" element={<MapComp navigate={navigate} />} />
+        <Route path="/location" element={<MapComp navigate={navigate} />} />
         {/* <Route path="/about" element={<AboutComp navigate={navigate} />} /> */}
         <Route path="/event" element={<EventComp navigate={navigate} />} />
       </Routes>
