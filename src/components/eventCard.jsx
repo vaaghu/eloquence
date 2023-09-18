@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import styles from "@styles/event.module.scss";
 // const imagesPath = "@image";
 
-export default function EventCard({ data, isLeft }) {
+export default function EventCard({ data }) {
   const [image, setImage] = useState(null);
   useEffect(() => {
     import(`../assets/images/${data.imageId}.jpeg`)
@@ -16,20 +16,10 @@ export default function EventCard({ data, isLeft }) {
   }, []);
   return (
     <div className={styles.eventCard}>
-      {isLeft && (
-        <img src={image} style={{ borderRadius: "15px 0px 0px 15px" }} />
-      )}
+      <img src={image} />
       <div className={styles.info}>
         <p>{data.title}</p>
-        {data.description.length > 100 ? (
-          <p>{data.description.slice(0, 100) + "..."}</p>
-        ) : (
-          <p>{data.description}</p>
-        )}
       </div>
-      {!isLeft && (
-        <img src={image} style={{ borderRadius: "0px 15px 15px 0px" }} />
-      )}
     </div>
   );
 }

@@ -9,6 +9,8 @@
   top: 0px;
   left: 0px;
   overflow: hidden;
+  orientation: portrait;
+  height: -webkit-fill-available;
 }
 
 .navBar {
@@ -44,4 +46,5 @@
   color: white;
   font-family: "Poppins", sans-serif;
   padding: 10px 5px;
+  orientation: portrait;
 }
