@@ -17,7 +17,7 @@ export default function HomeComp() {
           <img src={link} /> Vaaghu
         </a>
         <br />
-        <a className={styles2.anchore} href="" rel="author" target="_blank">
+        <a className={styles2.anchore} href="https://linktr.ee/riyaz03" rel="author" target="_blank">
           <img src={link} /> Riayz
         </a>
         <br />
