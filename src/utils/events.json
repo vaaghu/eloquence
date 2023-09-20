@@ -3,7 +3,7 @@
     "id": 1,
     "title": "call for papers",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod doloremque fugit fugiat, neque officia voluptas quas. Eaque ex, nam accusantium laudantium officia obcaecati corrupti consequuntur adipisci numquam quidem! Quam, veritatis!",
-    "imageId": "Paper_Presentation.jpeg"
+    "imageId": "Paper_Presentation.jpg"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "id": 4,
     "title": "tech quest",
     "description": "jskfe sfe skl s;olef lkg ;lfa  a;lk,wf; ;alwfjm a;lsf a",
-    "imageId": "Tech_Quiz.jpeg"
+    "imageId": "Tech_Quiz.jpg"
   },
   {
     "id": 5,
@@ -51,12 +51,12 @@
     "id": 9,
     "title": "freeze frame",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "Photography.jpeg"
+    "imageId": "Photography.jpg"
   },
   {
     "id": 10,
     "title": "BGMI & free fire",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "BGMI.png"
+    "imageId": "BGMI.jpg"
   }
 ]
