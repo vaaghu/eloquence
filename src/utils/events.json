@@ -3,60 +3,60 @@
     "id": 1,
     "title": "call for papers",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod doloremque fugit fugiat, neque officia voluptas quas. Eaque ex, nam accusantium laudantium officia obcaecati corrupti consequuntur adipisci numquam quidem! Quam, veritatis!",
-    "imageId": "Paper_Presentation.jpg"
+    "imageId": "Paper_Presentation"
   },
   {
     "id": 2,
     "title": "coding & Debugging",
     "description": "Embrace the world of coding and debugging with open arms. Code is your canvas, bugs are your puzzles, and solutions are your creations. Welcome to the journey of digital problem-solving and innovation!!!",
-    "imageId": "Coding_and_Debugging.jpg"
+    "imageId": "Coding_and_Debugging"
   },
   {
     "id": 3,
     "title": "clash for design",
     "description": "jskfe sfe skljf lskefj ;wfjm a;lsf a",
-    "imageId": "Web_Dev.jpg"
+    "imageId": "Web_Dev"
   },
   {
     "id": 4,
     "title": "tech quest",
     "description": "jskfe sfe skl s;olef lkg ;lfa  a;lk,wf; ;alwfjm a;lsf a",
-    "imageId": "Tech_Quiz.jpg"
+    "imageId": "Tech_Quiz"
   },
   {
     "id": 5,
     "title": "link masters",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "Connections.jpg"
+    "imageId": "Connections"
   },
   {
     "id": 6,
     "title": "light camera action",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "lights_camera_action.jpg"
+    "imageId": "lights_camera_action"
   },
   {
     "id": 7,
     "title": "flameless food fiesta",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "Cooking_without_fire.jpg"
+    "imageId": "Cooking_without_fire"
   },
   {
     "id": 8,
     "title": "visual art",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "Art.jpg"
+    "imageId": "Art"
   },
   {
     "id": 9,
     "title": "freeze frame",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "Photography.jpg"
+    "imageId": "Photography"
   },
   {
     "id": 10,
     "title": "BGMI & free fire",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "BGMI.jpg"
+    "imageId": "BGMI"
   }
 ]
