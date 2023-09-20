@@ -3,13 +3,13 @@
     "id": 1,
     "title": "call for papers",
     "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod doloremque fugit fugiat, neque officia voluptas quas. Eaque ex, nam accusantium laudantium officia obcaecati corrupti consequuntur adipisci numquam quidem! Quam, veritatis!",
-    "imageId": "paper_presentation.jpeg"
+    "imageId": "Paper_Presentation.jpeg"
   },
   {
     "id": 2,
     "title": "coding & Debugging",
     "description": "Embrace the world of coding and debugging with open arms. Code is your canvas, bugs are your puzzles, and solutions are your creations. Welcome to the journey of digital problem-solving and innovation!!!",
-    "imageId": "coding_and_debugging.jpg"
+    "imageId": "Coding_and_Debugging.jpg"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "id": 5,
     "title": "link masters",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "connections.jpg"
+    "imageId": "Connections.jpg"
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "id": 8,
     "title": "visual art",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "art.jpg"
+    "imageId": "Art.jpg"
   },
   {
     "id": 9,
