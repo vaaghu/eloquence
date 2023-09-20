@@ -1,6 +1,8 @@
 import { React, useEffect, useState } from "react";
 import styles1 from "@styles/eventInfo.module.scss";
 import styles2 from "@styles/index.module.scss";
+import styles3 from "@styles/event.module.scss";
+
 import PropTypes from "prop-types";
 import arrowLeft from "@images/arrowLeft.svg";
 
@@ -8,7 +10,7 @@ export default function EventInfoComp({ navigate }) {
   let eventInfo = JSON.parse(localStorage.getItem("eventInfo"));
   const [image, setImage] = useState(null);
   useEffect(() => {
-    import(`../assets/images/${eventInfo.imageId}.jpeg`)
+    import(`../assets/images/${eventInfo.imageId}`)
       .then((imageModule) => {
         setImage(imageModule.default);
       })
@@ -28,7 +30,7 @@ export default function EventInfoComp({ navigate }) {
           <img src={arrowLeft} />
         </button>
       </div>
-      <div>
+      <div className={styles3.eventCard}>
         <img src={image} />
         <p>{eventInfo.title}</p>
       </div>

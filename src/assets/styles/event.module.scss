@@ -13,22 +13,43 @@
     border-radius: 15px;
     filter: opacity(0.8);
   }
-}
-.info {
-  @include flex(row, flex-start, center);
-  height: 35px;
-  width: 100%;
-  margin: 2px;
-  transform: translateY(-38px);
-  background-color: rgba(0, 0, 0, 0.6);
   p {
+    @include flex(row, center, center);
+    height: 35px;
+    width: 90%;
+    margin: 2px;
+    transform: translateY(-38px);
+    background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
-    margin-left: 8px;
+    // margin-left: 15px;
     font-size: 18px;
+    border-radius: 0px 0px 15px 15px;
   }
-  border-radius: 0px 0px 15px 15px;
 }
 .eventsContainer {
   @include flex(column, flex-start, center);
   margin-bottom: 80px;
+}
+
+.searchBar {
+  border: 1px solid $mainColor;
+  width: 90%;
+  border-radius: 15px;
+  @include flex(row, flex-start, center);
+  img {
+    margin: 2px;
+    padding: 0px;
+    width: 25px;
+  }
+  input {
+    border: none;
+    width: calc(100% - 30px);
+    padding: 1px 10px;
+    background-color: transparent;
+    color: $mainColor;
+    font-size: 16px;
+    &:focus {
+      outline: none;
+    }
+  }
 }

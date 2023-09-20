@@ -24,7 +24,7 @@ export default function EventComp({ navigate }) {
   };
   return (
     <section className={styles1.section}>
-      <div>
+      <div className={styles2.searchBar}>
         <img src={search} />
         <input
           type="text"

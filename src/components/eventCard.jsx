@@ -6,7 +6,7 @@ import styles from "@styles/event.module.scss";
 export default function EventCard({ data, navigate }) {
   const [image, setImage] = useState(null);
   useEffect(() => {
-    import(`../assets/images/${data.imageId}.jpeg`)
+    import(`../assets/images/${data.imageId}`)
       .then((imageModule) => {
         setImage(imageModule.default);
       })
@@ -21,9 +21,7 @@ export default function EventCard({ data, navigate }) {
   return (
     <div className={styles.eventCard} onClick={displayInfo}>
       <img src={image} />
-      <div className={styles.info}>
-        <p>{data.title}</p>
-      </div>
+      <p>{data.title}</p>
     </div>
   );
 }
