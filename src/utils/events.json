@@ -15,6 +15,7 @@
         ]
       }
     ],
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=Call+for+papers",
     "contacts": [
       {
         "name": "Rahul B",
@@ -49,6 +50,7 @@
         ]
       }
     ],
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=Cipherx+(coding+and+Debugging)",
     "imageId": "Coding_and_Debugging",
     "contact": []
   },
@@ -56,7 +58,8 @@
     "id": 3,
     "title": "clash for design",
     "description": "jskfe sfe skljf lskefj ;wfjm a;lsf a",
-    "imageId": "Web_Dev"
+    "imageId": "Web_Dev",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=Clash+for+Design"
   },
   {
     "id": 4,
@@ -96,42 +99,49 @@
         ]
       }
     ],
-    "contacts": [{ "name": "Shafwan Ahmed", "number": 8072919646 }]
+    "contacts": [{ "name": "Shafwan Ahmed", "number": 8072919646 }],
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=Tech+Quest"
   },
   {
     "id": 5,
     "title": "link masters",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "Connections"
+    "imageId": "Connections",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Link+Masters"
   },
   {
     "id": 6,
     "title": "light camera action",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "lights_camera_action"
+    "imageId": "lights_camera_action",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Lights+Camera+Action"
   },
   {
     "id": 7,
     "title": "flameless food fiesta",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "Cooking_without_fire"
+    "imageId": "Cooking_without_fire",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Flameless+Food+Fiesta"
   },
   {
     "id": 8,
     "title": "visual art",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "Art"
+    "imageId": "Art",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Visual+Art"
   },
   {
     "id": 9,
     "title": "freeze frame",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "Photography"
+    "imageId": "Photography",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Freeze+Frame"
   },
   {
     "id": 10,
     "title": "BGMI & free fire",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
-    "imageId": "BGMI"
+    "imageId": "BGMI",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=BGMI+and+Free+Fire"
   }
 ]

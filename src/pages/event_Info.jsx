@@ -35,6 +35,7 @@ export default function EventInfoComp({ navigate }) {
         <p>{eventInfo.title}</p>
       </div>
       <div>
+        <a href={eventInfo.link}>REGISTER NOW</a>
         <p className="description">{eventInfo.description}</p>
         {eventInfo.notice && <p className="notice">{eventInfo.notice}</p>}
         {eventInfo.rules && (

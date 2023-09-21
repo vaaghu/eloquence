@@ -50,10 +50,15 @@ export default function NavBar({ navigate }) {
         <img src={isLocation ? location_fill : location} />
         location
       </button>
-      <button className={styles.buttons}>
+      <a
+        className={styles.buttons}
+        href="https://forms.gle/bqLPoi8G5jxR2REcA"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img src={register} />
         register
-      </button>
+      </a>
     </div>
   );
 }
