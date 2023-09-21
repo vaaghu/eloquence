@@ -2,14 +2,55 @@
   {
     "id": 1,
     "title": "call for papers",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod doloremque fugit fugiat, neque officia voluptas quas. Eaque ex, nam accusantium laudantium officia obcaecati corrupti consequuntur adipisci numquam quidem! Quam, veritatis!",
-    "imageId": "Paper_Presentation"
+    "description": "This competition provides a perfect platform for the students to come forward and be the leaders of future by demonstrating their creative and technical skills as well as their knowledge.Students will be presenting a topic on any emerging concepts, recent technological trends and development, which will help them in honoring skills for their technical future.",
+    "imageId": "Paper_Presentation",
+    "notice": "topics are Artificial intelligence, Blockchain, cloud computing, and topics related to latest technological trends",
+    "rules": [
+      {
+        "Team specifications": [
+          "Maximum of 3 members per team.",
+          "Each team must submit a soft copy of full paper on or before their presentation.",
+          "Each team will have about 7 to 8 minutes for their presentation followed by 2 minutes questionnaire.",
+          "Participants of a team can be of same or different colleges and of different teams also."
+        ]
+      }
+    ],
+    "contacts": [
+      {
+        "name": "Rahul B",
+        "number": 9080618420
+      }
+    ]
   },
   {
     "id": 2,
     "title": "coding & Debugging",
     "description": "Embrace the world of coding and debugging with open arms. Code is your canvas, bugs are your puzzles, and solutions are your creations. Welcome to the journey of digital problem-solving and innovation!!!",
-    "imageId": "Coding_and_Debugging"
+    "notice": [
+      "The students can either participate as an individual or as a team of two.",
+      "There will be two rounds in total.",
+      "The duration of the whole event is 1:30 hrs."
+    ],
+    "rules": [
+      {
+        "Debugging (Duration: 20 minutes only)": [
+          "There will be a total of 20 codes to be debugged available in three languages namely: C, Java, Python as hard copy.",
+          "Out of 20 codes, 10 will contain logical errors and remaining 10 will consist of syntax errors",
+          "The students are provided system with internet connection and are encouraged to use any sources necessary to debug (no other electronic devices are allowed).",
+          "Among total, half of participants will be promoted to next round by evaluating the debugged code and time complexity will be considered."
+        ]
+      },
+      {
+        "Coding (Duration: 40 minutes only)": [
+          "Total of 5 problem statements will be provided.",
+          "The problem statement will be from domains: [Sorting,Array manipulation,Searching,Pattern,String].",
+          "The internet access will be denied for this round.",
+          "The participates who provides output for any 3 of given statements will be announced as winner and runner up according to the time taken."
+        ]
+      }
+    ],
+    "imageId": "Coding_and_Debugging",
+    "contact": []
   },
   {
     "id": 3,
@@ -21,7 +62,41 @@
     "id": 4,
     "title": "tech quest",
     "description": "jskfe sfe skl s;olef lkg ;lfa  a;lk,wf; ;alwfjm a;lsf a",
-    "imageId": "Tech_Quiz"
+    "imageId": "Tech_Quiz",
+    "notice": [
+      "A team can have Maximum TWO MEMBERS,INDIVIDUAL participation is also allowed.",
+      "Teams must have a TEAM NAME for their identification.",
+      "Electronic Gadgets should not be used anywhere until the 2nd round (online quiz round)."
+    ],
+    "rules": [
+      {
+        "Round 1": [
+          "This round is aimed to screen the number of teams to maximum 15 for the next Quiz masters round.",
+          "A question paper consisting of 20 questions will be given to each team of the technical quiz event.",
+          "Time duration for this round is 15 minutes only.",
+          "The top 15 teams from this round are eligible for the next round."
+        ]
+      },
+      {
+        "Round 2": [
+          "This round is aimed to screen the number of teams to maximum 5 for the next Quiz masters round.",
+          "A online quiz consisting of 15 questions will be displayed on the screen to each team of the technical quiz event.",
+          "Time duration for this round is 15 seconds for each question ,the team must be quick enough to select the answers under the given duration of time i.e 15 secs for each question.",
+          "Whichever team selects the right answers fast will be getting more points and that teams will be selected for the next round.",
+          "The top 5 teams from this round are eligible for the next round."
+        ]
+      },
+      {
+        "Round 3": [
+          "The final round is aimed to screen the Top 2 teams.",
+          "A question paper consisting of 10 questions will be given to each team of the technical quiz event.",
+          "Time duration for this round is 10 minutes only.",
+          "There will be negative points for each incorrect answers.",
+          "The top 2 teams will be determined based on the total points scored by each team."
+        ]
+      }
+    ],
+    "contacts": [{ "name": "Shafwan Ahmed", "number": 8072919646 }]
   },
   {
     "id": 5,
