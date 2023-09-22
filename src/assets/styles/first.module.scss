@@ -1,55 +1,78 @@
-@import "main";
-
-.main {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  background: #000;
+}
+body {
+  background-image: url(https://i.postimg.cc/dVYKS8jM/bg-elo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.2);
+  src: url("@assets/fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype");
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   width: 100%;
-  height: 100vh;
-  max-height: 1200px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-  orientation: portrait;
-  height: -webkit-fill-available;
-}
-
-.navBar {
-  width: 100vw;
-  height: 50px;
-  // min-height: 5%;
-  background-color: black;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  @include flex(row, space-evenly, center);
-  z-index: 0;
-}
-
-.buttons {
-  img {
-    width: 30px;
-    height: auto;
-  }
-  color: white;
-  @include flex(column, center, center);
-  background-color: transparent;
-  border: none;
-  font-size: 12px;
-}
-
-.section {
-  overflow: hidden auto;
-  height: calc(100vh - 50px);
-  width: 100vw;
-  text-align: center;
-  margin-bottom: 50px;
-  background-color: rgb(18, 19, 20);
-  color: white;
-  font-family: "Poppins", sans-serif;
-  padding: 10px 5px;
-  orientation: portrait;
-}
-.section h1 {
-  font-weight: bolder;
   text-align: center;
   letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 1200;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: 0 0 10px #00d2ff, 0 0 20px #00d2ff, 0 0 30px #00d2ff;
+  span {
+    display: inline-block;
+    animation: animate 0.5s ease-in-out;
+    &:nth-child(2) {
+      animation-delay: 0.6s;
+    }
+    &:nth-child(3) {
+      animation-delay: 0.7s;
+    }
+    &:nth-child(4) {
+      animation-delay: 0.8s;
+    }
+    &:nth-child(5) {
+      animation-delay: 0.9s;
+    }
+    &:nth-child(6) {
+      animation-delay: 1s;
+    }
+    &:nth-child(7) {
+      animation-delay: 1.1s;
+    }
+    &:nth-child(8) {
+      animation-delay: 1.4s;
+    }
+    &:nth-child(9) {
+      animation-delay: 1.6s;
+    }
+  }
+}
+@keyframes animate {
+  0% {
+    opacity: 0%;
+    transform: rotateY(90deg);
+    filter: blur(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0px);
+  }
+}
+h1 {
+  span {
+    &:nth-child(1) {
+      animation-delay: 0.6s;
+    }
+  }
 }
