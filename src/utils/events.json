@@ -57,8 +57,24 @@
   {
     "id": 3,
     "title": "clash for design",
+    "notice": "participants must bring their portable personal computer.",
     "description": "jskfe sfe skljf lskefj ;wfjm a;lsf a",
     "imageId": "Web_Dev",
+    "rules": [
+      {
+        "Rules": [
+          "participants are strictly prohibited from copying codes from github, stack overflow, codepen, chatgpt and other sources. any team found violation this rule will be disqualified from the competition...",
+          "participants are limited to use three web development languages : html, css and javascript .",
+          "participants are not allowed to use their mobile phone during events ( except emergency )",
+          "participants may use their mobile phones for internet connectivity only if necessary.",
+          "participants must submit their project design on time , as failure to do so may result in disqualification from the contest .",
+          "participants must create and design the website themselves without the help of others. although collaboration between team members is allowed, but each individual should contribute to the project .",
+          "participants must ensure that their website is appropriate and respectful. any offensive or inappropriate will be tolerated nd may result in disqualification..",
+          "participants are limited to using only creative commons picture. some examples of website that provide access to such pictures include flickr, pixabay, unsplash, creative commons search and others..",
+          "participants must respect the judges and their decisions. their decision is final and cannot be opposed"
+        ]
+      }
+    ],
     "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=Clash+for+Design"
   },
   {
@@ -114,7 +130,23 @@
     "title": "light camera action",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
     "imageId": "lights_camera_action",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Lights+Camera+Action"
+    "notice": "Both mobile and DSLR can be used to shoot the movie.",
+    "rules": [
+      {
+        "rules": [
+          "the movie should not exceed 5 mins.",
+          "the intro and end credits can take extra 60 sec.",
+          "the movie should be unique and shouldn’t be extracted or copied from other works or social media.",
+          "the entire movie should be based on the relevant concept.",
+          "concept/theme are anti-drugs, social media awareness , horror or women",
+          "movie should be submitted through pendrive/memory card on the day of symposium.",
+          "while submitting the final output / movie, a video taken during the shoot i.e. behind the scenes video should be submitted.",
+          "there is no limitations for number of cast and crew."
+        ]
+      }
+    ],
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Lights+Camera+Action",
+    "contacts": [{ "name": "ALMOHAMMED BILAL", "number": 6383071076 }]
   },
   {
     "id": 7,
@@ -126,22 +158,99 @@
   {
     "id": 8,
     "title": "visual art",
-    "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
     "imageId": "Art",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Visual+Art"
+    "notice": "Express diverse themes, where your creativity knows no bounds",
+    "rules": [
+      {
+        "rules": [
+          "every competitors will be given one hour for their art work.",
+          "all the art works should be submitted within the allocated time.",
+          "Competitors must bring the necessary tools for drawing and A3 size drawing paper will be provided.",
+          "formats like portrait, paintings, drawings are acceptable.",
+          "drawing paper or chart will be checked before starting the event.",
+          "competitor should not submit the plagiarized work (copied from someone else’s work (or) ideas).",
+          "any artwork that violates the rules and regulations won’t be considered."
+        ]
+      }
+    ],
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Visual+Art",
+    "contacts": [{ "name": "T.L. PRIYADHARSHINEE", "number": 9361584559 }]
   },
   {
     "id": 9,
     "title": "freeze frame",
     "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
     "imageId": "Photography",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Freeze+Frame"
+    "notice": "Photos should be uploaded to this email -> 'freezeframe2k23@gmail.com'",
+    "rules": [
+      {
+        "rules": [
+          "Photos should be uploaded to the email address provided below.",
+          "Everyone must submit their photo within the given time.",
+          "There should be a caption below the picture, mentioning the meaning of the photo.",
+          "No DSLR camera should be used; you should only use the mobile camera.",
+          "Photoshop or other software should not be used; you can do basic editing of the picture using the phone’s inbuilt editing options.",
+          "There should be no watermarks or digital signatures on the picture.",
+          "No irrelevant pictures should be uploaded.",
+          "Pictures should be taken inside the campus and on the exact day of the event. Any picture taken before the event and yet submitted will be disqualified if found.",
+          "If you fail to respond on time or violate any of the rules, you will be rejected or disqualified, and there will be no refund.",
+          "Email to upload the pictures: freezeframe2k23@gmail.com"
+        ]
+      }
+    ],
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Freeze+Frame",
+    "contacts": [{ "name": "Z. Mohammed Zaheer Hussain", "number": 9789399389 }]
   },
   {
     "id": 10,
+    "title": "debate",
+    "description": "Debate is a process that involves formal discussion and oral addresses on a particular topic or collection of topics, often with a moderator and an audience. In a debate, arguments are put forward for common opposing viewpoints.",
+    "imageId": "Debate",
+    "notice": "Topic related to latest technological trend will be given on the spot.",
+    "rules": [
+      {
+        "rules": [
+          "Individual participants",
+          "Based on the count of participants, members will be allotted to speak for and against the motion.",
+          "At a time, a student will speak for the motion followed by the one against the motion. time allotted is 3 minutes.",
+          "Then, the former and the latter will compete on the stage as rebuttal for which collectively they will be have 2 minutes.",
+          "There will be negative marking for interjection.",
+          "Use of any paper or guided reference will lead to disqualification.",
+          "Criteria for Judgment are Content, Style of Delivery and Rebuttal"
+        ]
+      }
+    ],
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Freeze+Frame",
+    "contacts": [{ "name": "Vadepeer M", "number": 9585190687 }]
+  },
+  {
+    "id": 11,
     "title": "BGMI & free fire",
-    "description": "jskfe sfe skljf lskefj ;p'kef  a;lsf a",
     "imageId": "BGMI",
+    "rules": [
+      {
+        "BGMI rules": [
+          "people who have registered for BGMI will have to play 2 classic matches with their registered teammates.",
+          "teams are responsible for their own technical issues.",
+          "each teammates id must be more than level 30.",
+          "each team leader should select their slot while registering.",
+          "re-match can only be played with admin initiation.",
+          "disconnects and lag issues will not qualify for a re-match."
+        ],
+        "free fire rules": [
+          "Participants who have registered for Free Fire will need to play 2 Battle Royale matches with their registered teammates.",
+          "All teams and players must be in the lobby of the given custom room and be ready, not later than 5 minutes before the match starts.",
+          "Registered team members cannot be changed or replaced.",
+          "Teams are responsible for their own technical issues.",
+          "Each teammate's ID must be at least level 20.",
+          "Each team leader should select their slot while registering.",
+          "Re-matches can only be initiated by the admin.",
+          "Disconnects and lag issues will not qualify for a re-match.",
+          "DISCLAIMER: All decisions regarding the interpretation of these rules, player eligibility, scheduling of the tournament, and penalties for misconduct, rest solely with the Tournament Admin, the decisions of which are final.",
+          "Rule Changes: These rules may be amended, modified, or supplemented by the Tournament Admin, from time to time, in order to ensure fair play and the integrity of the tournament."
+        ]
+      }
+    ],
     "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=BGMI+and+Free+Fire"
   }
 ]

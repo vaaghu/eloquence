@@ -13,3 +13,9 @@
 
 $mainColor: white;
 $secondaryColor: black;
+@mixin boxShadow() {
+  box-shadow: 0 0 5px #18d5ff, 0 0 10px #00d2ff, 0 0 20px #0184a1;
+}
+@mixin textShadow() {
+  text-shadow: 0 0 10px #18d5ff, 0 0 20px #00d2ff, 0 0 30px #0184a1;
+}

@@ -49,6 +49,7 @@
   font-family: "Poppins", sans-serif;
   padding: 10px 5px;
   orientation: portrait;
+  @include flex(column, flex-start, center);
 }
 .section p {
   font-weight: bolder;

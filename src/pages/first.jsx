@@ -6,7 +6,9 @@ export default function FirstComp({ navigate }) {
     <section
       className={styles.section}
       onClick={() => {
-        navigate("./home");
+        setTimeout(() => {
+          navigate("./home");
+        }, 1000);
       }}
     >
       <h1>
@@ -20,7 +22,7 @@ export default function FirstComp({ navigate }) {
         <span>C</span>
         <span>E</span>
         <br />
-        <span>&apos23</span>
+        <span>{"'"}23</span>
       </h1>
     </section>
   );

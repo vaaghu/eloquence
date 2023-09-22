@@ -3,17 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
-section {
+.section {
   background: #000;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 1;
 }
-body {
-  background-image: url(https://i.postimg.cc/dVYKS8jM/bg-elo.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: rgba(0, 0, 0, 0.2);
-  src: url("@assets/fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype");
-}
+// body {
+//   background-image: url(https://i.postimg.cc/dVYKS8jM/bg-elo.jpg);
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+//   background-color: rgba(0, 0, 0, 0.2);
+//   src: url("@assets/fonts/Poppins/Poppi.ns-ExtraLight.ttf") format("truetype");
+// }
 h1 {
   position: absolute;
   top: 50%;
