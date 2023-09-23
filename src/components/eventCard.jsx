@@ -5,6 +5,7 @@ import styles from "@styles/event.module.scss";
 
 export default function EventCard({ data, navigate }) {
   const [image, setImage] = useState(null);
+
   useEffect(() => {
     import(`../assets/images/${data.imageId}.jpg`)
       .then((imageModule) => {

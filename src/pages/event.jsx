@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useEffect, useState, useRef } from "react";
 import PropTypes from "prop-types";
 
 import search from "@images/search.svg";
@@ -9,8 +9,12 @@ import styles1 from "@styles/index.module.scss";
 import styles2 from "@styles/event.module.scss";
 export default function EventComp({ navigate }) {
   const [eventCards, setEventCards] = useState(eventsData);
+  const sectionRef = useRef(null);
+
   let filter = (event) => {
-    let value = event.currentTarget.value;
+    if (!event) return;
+    let value = typeof event === "string" ? event : event.currentTarget.value;
+    localStorage.setItem("searchText", value);
     if (value.length <= 0) {
       setEventCards([...eventsData]);
     } else {
@@ -22,13 +26,29 @@ export default function EventComp({ navigate }) {
       );
     }
   };
+
+  useEffect(() => {
+    filter(localStorage.getItem("searchText"));
+    if (sectionRef.current) {
+      sectionRef.current.scrollTop = parseInt(
+        localStorage.getItem("scrollTop")
+      ); // Set the desired initial value (in pixels)
+    }
+  }, []);
   return (
-    <section className={styles1.section}>
+    <section
+      className={styles1.section}
+      ref={sectionRef}
+      onScroll={(event) => {
+        localStorage.setItem("scrollTop", event.currentTarget.scrollTop);
+      }}
+    >
       <div className={styles2.searchBar}>
         <img src={search} />
         <input
           type="text"
           placeholder="search bar"
+          value={localStorage.getItem("searchText")}
           onChange={filter}
           onBlur={filter}
         />
