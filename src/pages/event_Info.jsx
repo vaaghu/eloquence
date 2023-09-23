@@ -9,6 +9,7 @@ import contact from "@images/call_fill.svg";
 import register from "@images/register.svg";
 import timer from "@images/timer.svg";
 import location from "@images/location.svg";
+import rupee from "@images/rupee.svg";
 
 export default function EventInfoComp({ navigate }) {
   let eventInfo = JSON.parse(localStorage.getItem("eventInfo"));
@@ -49,14 +50,18 @@ export default function EventInfoComp({ navigate }) {
       </div>
       <div className={styles1.textDiv}>
         {eventInfo.location && (
-          <p>
+          <p className={styles1.info}>
             <img src={location} />
             {eventInfo.location}
           </p>
         )}
-        <p>
+        <p className={styles1.info}>
           <img src={timer} />
           {eventInfo.timing}
+        </p>
+        <p className={styles1.info}>
+          <img src={rupee} />
+          {eventInfo.price ? eventInfo.price : "50 per person"}
         </p>
       </div>
       <div className={styles1.textDiv}>
@@ -73,7 +78,7 @@ export default function EventInfoComp({ navigate }) {
             {eventInfo.rules.map((event, index) => {
               return (
                 <div key={index}>
-                  <p className="rule_title">{Object.keys(event)[0]}:</p>
+                  <p>{Object.keys(event)[0]}:</p>
                   <>
                     <ul>
                       {event[Object.keys(event)[0]].map((element, index) => {

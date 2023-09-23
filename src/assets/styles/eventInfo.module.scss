@@ -53,6 +53,9 @@
     padding: 5px;
   }
 }
+.info {
+  @include flex(row, space-evenly, center);
+}
 .description {
   font-size: 15px;
 }
