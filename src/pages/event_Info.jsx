@@ -2,10 +2,12 @@ import { React, useEffect, useState } from "react";
 import styles1 from "@styles/eventInfo.module.scss";
 import styles2 from "@styles/index.module.scss";
 import styles3 from "@styles/event.module.scss";
-
 import PropTypes from "prop-types";
+
 import arrowLeft from "@images/arrowLeft.svg";
-import contact from "@images/call_fill_black.svg";
+import contact from "@images/call_fill.svg";
+import register from "@images/register.svg";
+
 export default function EventInfoComp({ navigate }) {
   let eventInfo = JSON.parse(localStorage.getItem("eventInfo"));
   const [image, setImage] = useState(null);
@@ -35,7 +37,8 @@ export default function EventInfoComp({ navigate }) {
           target="_blank"
           rel="noreferrer"
         >
-          REGISTER NOW
+          <p>Register</p>
+          <img src={register} />
         </a>
       </div>
       <div className={styles3.eventCard}>
@@ -46,7 +49,8 @@ export default function EventInfoComp({ navigate }) {
         <p className={styles1.description}>{eventInfo.description}</p>
         {eventInfo.notice && (
           <p className={styles1.notice}>
-            NOTE !!! <br />
+            NOTE ⚠️
+            <br />
             {eventInfo.notice}
           </p>
         )}
@@ -80,7 +84,7 @@ export default function EventInfoComp({ navigate }) {
                 className={styles1.contactButton}
               >
                 <img src={contact} />
-                Queries
+                <p>{person.name}</p>
               </a>
             );
           })}

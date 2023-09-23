@@ -37,7 +37,7 @@ export default function EventComp({ navigate }) {
         {eventCards.map((element) => (
           <EventCard key={element.id} data={element} navigate={navigate} />
         ))}
-        {(!eventCards || eventCards.length == 0) && <p>no event</p>}
+        {(!eventCards || eventCards.length == 0) && <p>no events... 🤷‍♀️</p>}
       </div>
       {/* <p>events page</p> */}
     </section>

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "call for papers",
+    "title": "Call For Papers",
     "description": "This competition provides a perfect platform for the students to come forward and be the leaders of future by demonstrating their creative and technical skills as well as their knowledge.Students will be presenting a topic on any emerging concepts, recent technological trends and development, which will help them in honoring skills for their technical future.",
     "imageId": "Paper_Presentation",
     "notice": "topics are Artificial intelligence, Blockchain, cloud computing, and topics related to latest technological trends",
@@ -25,7 +25,7 @@
   },
   {
     "id": 2,
-    "title": "coding & Debugging",
+    "title": "CipherX",
     "description": "Embrace the world of coding and debugging with open arms. Code is your canvas, bugs are your puzzles, and solutions are your creations. Welcome to the journey of digital problem-solving and innovation!!!",
     "notice": [
       "The students can either participate as an individual or as a team of two.",
@@ -52,11 +52,16 @@
     ],
     "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=Cipherx+(coding+and+Debugging)",
     "imageId": "Coding_and_Debugging",
-    "contact": []
+    "contacts": [
+      {
+        "name": "Fayaz",
+        "number": 9392568989
+      }
+    ]
   },
   {
     "id": 3,
-    "title": "clash for design",
+    "title": "Clash For Design",
     "notice": "participants must bring their portable personal computer.",
     "description": "jskfe sfe skljf lskefj ;wfjm a;lsf a",
     "imageId": "Web_Dev",
@@ -75,11 +80,17 @@
         ]
       }
     ],
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=Clash+for+Design"
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=Clash+for+Design",
+    "contacts": [
+      {
+        "name": "Riyaz",
+        "number": 9629158073
+      }
+    ]
   },
   {
     "id": 4,
-    "title": "tech quest",
+    "title": "Tech Quest",
     "imageId": "Tech_Quiz",
     "notice": [
       "A team can have Maximum TWO MEMBERS,INDIVIDUAL participation is also allowed.",
@@ -119,9 +130,31 @@
   },
   {
     "id": 5,
-    "title": "link masters",
+    "title": "Link Masters",
     "imageId": "Connections",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Link+Masters"
+    "notice": "Questions are related to both technical and non-technical.",
+    "rules": [
+      {
+        "Rules": [
+          "Each team will be having a maximum of 3 members & a minimum of 1.",
+          "Paper will be provided to each team.",
+          "Teams should fill the team details at the top right corner of the paper (separate time will be given).",
+          "Image will be shown on the screen, Everyone should write the corresponding answers on the paper. After every round the paper will be collected and evaluated.",
+          "Difficulty of the questions will be increased level by level.",
+          "Number of rounds depends on the number of teams.",
+          "Discussion within the team is allowed. Discussing with other teams is strictly not allowed.",
+          "Using a mobile phone during the event is strictly prohibited.",
+          "Someone seen breaking the rules will be disqualified."
+        ]
+      }
+    ],
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Link+Masters",
+    "contacts": [
+      {
+        "name": "Rafique",
+        "number": 9843988538
+      }
+    ]
   },
   {
     "id": 6,
@@ -143,13 +176,35 @@
       }
     ],
     "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Lights+Camera+Action",
-    "contacts": [{ "name": "ALMOHAMMED BILAL", "number": 6383071076 }]
+    "contacts": [{ "name": "Bilal", "number": 6383071076 }]
   },
   {
     "id": 7,
     "title": "flameless food fiesta",
     "imageId": "Cooking_without_fire",
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Flameless+Food+Fiesta"
+    "notice": "Evaluation is based on the taste, hygiene & presentation",
+    "rules": [
+      {
+        "rules": [
+          "One team may contain a maximum of 3 members",
+          "Total preparation time: 1 hour",
+          "All required materials, tools, and equipment should be arranged by the participants",
+          "Participants are required to be present 10 minutes prior to commencement at the venue",
+          "Cutting of vegetables and fruits should be done on the spot. No prior preparation allowed",
+          "Ready-made decorative items are not permitted",
+          "Heating by any method is not permitted",
+          "Participants should maintain cleanliness by all means and raw materials/prepared items should be hygienic",
+          "Participants should clean their respective work places after the competition"
+        ]
+      }
+    ],
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Flameless+Food+Fiesta",
+    "contacts": [
+      {
+        "name": "Zaheer",
+        "number": 9789399389
+      }
+    ]
   },
   {
     "id": 8,
@@ -159,18 +214,18 @@
     "rules": [
       {
         "rules": [
-          "every competitors will be given one hour for their art work.",
-          "all the art works should be submitted within the allocated time.",
+          "Every competitors will be given one hour for their art work.",
+          "All the art works should be submitted within the allocated time.",
           "Competitors must bring the necessary tools for drawing and A3 size drawing paper will be provided.",
-          "formats like portrait, paintings, drawings are acceptable.",
-          "drawing paper or chart will be checked before starting the event.",
-          "competitor should not submit the plagiarized work (copied from someone else’s work (or) ideas).",
-          "any artwork that violates the rules and regulations won’t be considered."
+          "Formats like portrait, paintings, drawings are acceptable.",
+          "Drawing paper or chart will be checked before starting the event.",
+          "Competitor should not submit the plagiarized work (copied from someone else’s work (or) ideas).",
+          "Any artwork that violates the rules and regulations won’t be considered."
         ]
       }
     ],
     "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Visual+Art",
-    "contacts": [{ "name": "T.L. PRIYADHARSHINEE", "number": 9361584559 }]
+    "contacts": [{ "name": "T.L. priyadhrshinee", "number": 9361584559 }]
   },
   {
     "id": 9,
@@ -194,11 +249,11 @@
       }
     ],
     "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Freeze+Frame",
-    "contacts": [{ "name": "Z. Mohammed Zaheer Hussain", "number": 9789399389 }]
+    "contacts": [{ "name": "Zaheer", "number": 9789399389 }]
   },
   {
     "id": 10,
-    "title": "debate",
+    "title": "Controvarsy Clash",
     "description": "Debate is a process that involves formal discussion and oral addresses on a particular topic or collection of topics, often with a moderator and an audience. In a debate, arguments are put forward for common opposing viewpoints.",
     "imageId": "Debate",
     "notice": "Topic related to latest technological trend will be given on the spot.",
@@ -220,7 +275,7 @@
   },
   {
     "id": 11,
-    "title": "BGMI & free fire",
+    "title": "Virtual War",
     "imageId": "BGMI",
     "rules": [
       {
@@ -231,8 +286,10 @@
           "each team leader should select their slot while registering.",
           "re-match can only be played with admin initiation.",
           "disconnects and lag issues will not qualify for a re-match."
-        ],
-        "free fire rules": [
+        ]
+      },
+      {
+        "freefire rules": [
           "Participants who have registered for Free Fire will need to play 2 Battle Royale matches with their registered teammates.",
           "All teams and players must be in the lobby of the given custom room and be ready, not later than 5 minutes before the match starts.",
           "Registered team members cannot be changed or replaced.",
@@ -246,6 +303,16 @@
         ]
       }
     ],
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=BGMI+and+Free+Fire"
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=BGMI+and+Free+Fire",
+    "contacts": [
+      {
+        "name": "Lokesh (BGMI)",
+        "number": 6382917112
+      },
+      {
+        "name": "Praveen (FreeFire)",
+        "number": 9080618420
+      }
+    ]
   }
 ]

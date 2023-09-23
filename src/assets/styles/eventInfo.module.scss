@@ -18,7 +18,8 @@
 .registerButton,
 .contactButton {
   height: 35px;
-  padding: 5px 10px;
+  width: fit-content;
+  // padding: 5px 10px;
   font-size: 15px;
   text-decoration: none;
   background-color: white;
@@ -26,10 +27,21 @@
   border-radius: 15px;
   font-weight: 800;
   margin-right: 15px;
-  padding: 1px 5px;
-  @include flex(row, flex-start, center);
+  padding: 0px;
+  @include flex(row, space-between, center);
+  P {
+    margin: 1px 10px;
+    font-size: 14px;
+    word-break: keep-all;
+    word-wrap: normal;
+  }
   img {
-    margin-right: 5px;
+    margin: 0px;
+    background-color: black;
+    border-radius: 40%;
+    width: 35px;
+    height: 35px;
+    border: 5px solid black;
   }
 }
 .textDiv {
@@ -58,7 +70,11 @@
 }
 .contactDiv {
   @extend .textDiv;
+  a {
+    margin: 10px 1px;
+  }
   margin-bottom: 25vh;
+  height: 80px;
 }
 .rules {
   width: 98vw;
