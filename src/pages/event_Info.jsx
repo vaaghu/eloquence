@@ -70,7 +70,7 @@ export default function EventInfoComp({ navigate }) {
         )}
       </div>
       {eventInfo.contacts && (
-        <div className={styles1.textDiv}>
+        <div className={styles1.contactDiv}>
           {eventInfo.contacts.map((person, index) => {
             console.log(person);
             return (

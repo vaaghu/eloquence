@@ -56,6 +56,10 @@
   width: 100vw;
   padding: 1px 10px;
 }
+.contactDiv {
+  @extend .textDiv;
+  margin-bottom: 25vh;
+}
 .rules {
   width: 98vw;
   @include flex(column, flex-start, center);
