@@ -2,7 +2,7 @@
 
 .eventCard {
   @include flex(column, space-between, center);
-  border: solid 1px white;
+  border: solid 1px $mainColor;
   width: 90vw;
   height: 235px;
   border-radius: 15px;

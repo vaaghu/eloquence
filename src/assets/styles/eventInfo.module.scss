@@ -5,8 +5,8 @@
   height: 100vh;
   width: 100vw;
   margin-bottom: 50px;
-  background-color: rgb(18, 19, 20);
-  color: white;
+  background-color: $secondaryColor;
+  color: $mainColor;
   font-family: "Poppins", sans-serif;
   padding: 10px 5px;
   z-index: 10;
@@ -22,8 +22,8 @@
   // padding: 5px 10px;
   font-size: 15px;
   text-decoration: none;
-  background-color: white;
-  color: black;
+  background-color: $mainColor;
+  color: $secondaryColor;
   border-radius: 15px;
   font-weight: 800;
   margin-right: 15px;
@@ -37,11 +37,11 @@
   }
   img {
     margin: 0px;
-    background-color: black;
+    background-color: $secondaryColor;
     border-radius: 40%;
     width: 35px;
     height: 35px;
-    border: 5px solid black;
+    border: 5px solid $secondaryColor;
   }
 }
 .textDiv {
