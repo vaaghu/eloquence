@@ -4,7 +4,7 @@
   @include flex(column, space-between, center);
   border: solid 1px white;
   width: 90vw;
-  height: 200px;
+  height: 235px;
   border-radius: 15px;
   margin: 10px 5px;
   img {
@@ -16,14 +16,14 @@
   p {
     @include flex(row, center, center);
     height: 35px;
-    width: 99%;
+    width: 100%;
     margin: 2px;
     // transform: translateY(-33px);
     background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
     // margin-left: 15px;
     font-size: 18px;
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 0px 25px 25px;
   }
 }
 .eventsContainer {

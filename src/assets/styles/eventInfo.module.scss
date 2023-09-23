@@ -1,3 +1,5 @@
+@import "main";
+
 .section {
   overflow: hidden auto;
   height: 100vh;
@@ -11,4 +13,68 @@
   position: absolute;
   top: 0px;
   left: 0px;
+  @include flex(column, flex-start, center);
+}
+.registerButton,
+.contactButton {
+  height: 35px;
+  padding: 5px 10px;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  font-weight: 800;
+  margin-right: 15px;
+  padding: 1px 5px;
+  @include flex(row, flex-start, center);
+  img {
+    margin-right: 5px;
+  }
+}
+.textDiv {
+  margin: 5px 5px 20px 5px;
+  width: 98vw;
+  @include flex(column, flex-start, flex-start);
+  p {
+    text-align: left;
+    padding: 5px;
+  }
+}
+.description {
+  font-size: 15px;
+}
+.notice {
+  background-color: rgba(255, 255, 0, 0.2);
+  border-radius: 15px;
+  border: 2px solid rgba(255, 255, 0, 0.5);
+  font-size: 14px;
+  margin: 10px 1px;
+}
+.topNavBar {
+  @include flex(row, space-between, center);
+  width: 100vw;
+  padding: 1px 10px;
+}
+.rules {
+  width: 98vw;
+  @include flex(column, flex-start, center);
+  div {
+    // border:1px rgba(255, 0, 0, 0.4) solid;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 15px;
+    margin: 10px 2px;
+    padding: 10px;
+  }
+  p {
+    font-size: 18px;
+    font-family: 600;
+  }
+  ul {
+    margin-left: 15px;
+    li {
+      font-family: 400;
+      font-size: 14px;
+    }
+  }
 }

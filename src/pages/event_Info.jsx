@@ -5,7 +5,7 @@ import styles3 from "@styles/event.module.scss";
 
 import PropTypes from "prop-types";
 import arrowLeft from "@images/arrowLeft.svg";
-import contact from "@images/call_fill.svg";
+import contact from "@images/call_fill_black.svg";
 export default function EventInfoComp({ navigate }) {
   let eventInfo = JSON.parse(localStorage.getItem("eventInfo"));
   const [image, setImage] = useState(null);
@@ -20,7 +20,7 @@ export default function EventInfoComp({ navigate }) {
   }, []);
   return (
     <section className={styles1.section}>
-      <div>
+      <div className={styles1.topNavBar}>
         <button
           className={styles2.buttons}
           onClick={() => {
@@ -29,26 +29,40 @@ export default function EventInfoComp({ navigate }) {
         >
           <img src={arrowLeft} />
         </button>
+        <a
+          className={styles1.registerButton}
+          href={eventInfo.link}
+          target="_blank"
+          rel="noreferrer"
+        >
+          REGISTER NOW
+        </a>
       </div>
       <div className={styles3.eventCard}>
         <img src={image} />
         <p>{eventInfo.title}</p>
       </div>
-      <div>
-        <a href={eventInfo.link}>REGISTER NOW</a>
-        <p className="description">{eventInfo.description}</p>
-        {eventInfo.notice && <p className="notice">{eventInfo.notice}</p>}
+      <div className={styles1.textDiv}>
+        <p className={styles1.description}>{eventInfo.description}</p>
+        {eventInfo.notice && (
+          <p className={styles1.notice}>
+            NOTE !!! <br />
+            {eventInfo.notice}
+          </p>
+        )}
         {eventInfo.rules && (
-          <div className="rules">
+          <div className={styles1.rules}>
             {eventInfo.rules.map((event, index) => {
               return (
                 <div key={index}>
                   <p className="rule_title">{Object.keys(event)[0]}:</p>
-                  <div>
-                    {event[Object.keys(event)[0]].map((element, index) => {
-                      return <p key={index}>{element}</p>;
-                    })}
-                  </div>
+                  <>
+                    <ul>
+                      {event[Object.keys(event)[0]].map((element, index) => {
+                        return <li key={index}>{element}</li>;
+                      })}
+                    </ul>
+                  </>
                 </div>
               );
             })}
@@ -56,15 +70,17 @@ export default function EventInfoComp({ navigate }) {
         )}
       </div>
       {eventInfo.contacts && (
-        <div>
-          for queries contact:
-          <br />
+        <div className={styles1.textDiv}>
           {eventInfo.contacts.map((person, index) => {
             console.log(person);
             return (
-              <a key={index} href={`tel:${person.number}`}>
+              <a
+                key={index}
+                href={`tel:${person.number}`}
+                className={styles1.contactButton}
+              >
                 <img src={contact} />
-                {person.name}
+                Queries
               </a>
             );
           })}
