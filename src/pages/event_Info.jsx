@@ -7,6 +7,8 @@ import PropTypes from "prop-types";
 import arrowLeft from "@images/arrowLeft.svg";
 import contact from "@images/call_fill.svg";
 import register from "@images/register.svg";
+import timer from "@images/timer.svg";
+import location from "@images/location.svg";
 
 export default function EventInfoComp({ navigate }) {
   let eventInfo = JSON.parse(localStorage.getItem("eventInfo"));
@@ -44,6 +46,16 @@ export default function EventInfoComp({ navigate }) {
       <div className={styles3.eventCard}>
         <img src={image} />
         <p>{eventInfo.title}</p>
+      </div>
+      <div className={styles1.textDiv}>
+        <p>
+          <img src={location} />
+          {eventInfo.location}
+        </p>
+        <p>
+          <img src={timer} />
+          {eventInfo.timing}
+        </p>
       </div>
       <div className={styles1.textDiv}>
         <p className={styles1.description}>{eventInfo.description}</p>
