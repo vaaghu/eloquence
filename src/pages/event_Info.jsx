@@ -48,10 +48,12 @@ export default function EventInfoComp({ navigate }) {
         <p>{eventInfo.title}</p>
       </div>
       <div className={styles1.textDiv}>
-        <p>
-          <img src={location} />
-          {eventInfo.location}
-        </p>
+        {eventInfo.location && (
+          <p>
+            <img src={location} />
+            {eventInfo.location}
+          </p>
+        )}
         <p>
           <img src={timer} />
           {eventInfo.timing}

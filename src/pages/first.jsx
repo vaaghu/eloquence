@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import styles from "@styles/first.module.scss";
 export default function FirstComp({ navigate }) {
+  useEffect(() => {
+    setTimeout(() => {
+      navigate("./home");
+    }, 2500); //2.5sec
+  });
   return (
     <section
       className={styles.section}
