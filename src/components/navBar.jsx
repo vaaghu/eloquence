@@ -46,10 +46,19 @@ export default function NavBar({ navigate }) {
         <img src={isEvent ? event_fill : event} />
         event
       </button>
-      <button onClick={() => iconChange("location")} className={styles.buttons}>
+      {/* <button onClick={() => iconChange("location")} className={styles.buttons}>
         <img src={isLocation ? location_fill : location} />
         location
-      </button>
+      </button> */}
+      <a
+        className={styles.buttons}
+        href="https://maps.app.goo.gl/nEHHnuemWKZ1zYiF9"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img src={isLocation ? location_fill : location} />
+        location
+      </a>
       <a
         className={styles.buttons}
         href="https://forms.gle/bqLPoi8G5jxR2REcA"
