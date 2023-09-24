@@ -13,6 +13,8 @@
 $anchormainColor: rgb(255, 212, 212);
 $mainColor: white;
 $secondaryColor: rgb(18, 19, 20);
+$supportColor: rgb(87, 87, 87);
+
 @mixin boxShadow() {
   box-shadow: 0 0 5px #18d5ff, 0 0 10px #00d2ff, 0 0 20px #0184a1;
 }

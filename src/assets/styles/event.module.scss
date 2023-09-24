@@ -32,10 +32,12 @@
 }
 
 .searchBar {
-  border: 1px solid $mainColor;
+  // border: 1px solid $mainColor;
   width: 90%;
   border-radius: 15px;
   @include flex(row, flex-start, center);
+  background-color: $supportColor;
+  color: $secondaryColor;
   img {
     margin: 2px;
     padding: 0px;
