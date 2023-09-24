@@ -6,11 +6,11 @@ import logo from "@images/CAHCET-LOGO-FULL.jpeg";
 import nba from "@images/nba-logo.jpeg";
 import mainpic from "@images/mainpic.jpeg";
 
-// import styles1 from "@styles/index.module.scss";
+import styles1 from "@styles/index.module.scss";
 import styles2 from "@styles/home.module.scss";
 export default function HomeComp() {
   return (
-    <section className={styles2.section}>
+    <section className={styles1.section}>
       <div className={styles2.topNav}>
         <img src={logo} alt="" />
         <i>
@@ -19,18 +19,18 @@ export default function HomeComp() {
         </i>
         <img src={nba} alt="" />
       </div>
-      <div>
+      <div className={styles2.otherDiv}>
         <img className={styles2.mainImg} src={mainpic} alt="" />
       </div>
-      <div>
+      <div className={styles2.otherDiv}>
         <h3>principal</h3>
         <i className={styles2.para}>Dr.M. Sasi Kumar</i>
       </div>
-      <div>
+      <div className={styles2.otherDiv}>
         <h3>head of department</h3>
         <i className={styles2.para}>Dr.K. Abrar Ahmed</i>
       </div>
-      <div>
+      <div className={styles2.otherDiv}>
         <h3>coordinators</h3>
         <i className={styles2.para}>Dr.R.Z. Inamul Hussain</i>
         <br />
@@ -39,7 +39,7 @@ export default function HomeComp() {
         <i className={styles2.para}>Mr.B.Palanisamy</i>
         <br />
       </div>
-      <div>
+      <div className={styles2.otherDiv}>
         <h3>student coordinators</h3>
         <a
           className={styles2.anchore}
@@ -78,7 +78,7 @@ export default function HomeComp() {
         </a>
         <br />
       </div>
-      <div>
+      <div className={styles2.devDiv}>
         <h3>Developers</h3>
         <a
           className={styles2.anchore}

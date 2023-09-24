@@ -11,13 +11,13 @@
   @include flex(row, space-evenly, center);
   img {
     // max-width: 100px;
-    width: 70px;
+    width: 50px;
   }
   :nth-child(3) {
-    width: 30px;
+    width: 25px;
   }
   i {
-    font-size: 10px;
+    font-size: 8px;
     font-style: normal;
   }
 }
@@ -30,7 +30,12 @@
   font-style: normal;
   // background-color: red;
 }
-
+.otherDiv {
+  margin: 20px 5px;
+}
+.devDiv {
+  margin-bottom: 150px;
+}
 .section {
   overflow: hidden auto;
   height: calc(100vh - 50px);
@@ -43,7 +48,4 @@
   padding: 10px 5px;
   orientation: portrait;
   @include flex(column, flex-start, center);
-  div {
-    margin: 20px 5px;
-  }
 }
