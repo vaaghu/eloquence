@@ -2,25 +2,25 @@ import React from "react";
 import link from "@images/link.svg";
 import call_fill from "@images/call_fill.svg";
 
+import logo from "@images/CAHCET-LOGO-FULL.jpeg";
+import nba from "@images/nba-logo.jpeg";
+import mainpic from "@images/mainpic.jpeg";
+
 // import styles1 from "@styles/index.module.scss";
 import styles2 from "@styles/home.module.scss";
 export default function HomeComp() {
   return (
     <section className={styles2.section}>
       <div className={styles2.topNav}>
-        <img src="https://i.postimg.cc/fR59c2pf/CAHCET-LOGO-FULL.png" alt="" />
+        <img src={logo} alt="" />
         <i>
           C.ABDUL HAKEEM COLLEGE OF ENGINEERING AND TECHNOLOGY <br />{" "}
           MELVISHARAM - 632 509
         </i>
-        <img src="https://i.postimg.cc/BZ1HrCPJ/nba-logo.png" alt="" />
+        <img src={nba} alt="" />
       </div>
       <div>
-        <img
-          className={styles2.mainImg}
-          src="https://i.postimg.cc/fL7HQtXH/mainpic.png"
-          alt=""
-        />
+        <img className={styles2.mainImg} src={mainpic} alt="" />
       </div>
       <div>
         <h3>principal</h3>
