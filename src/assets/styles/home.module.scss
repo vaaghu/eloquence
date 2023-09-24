@@ -6,3 +6,44 @@
     width: 18px;
   }
 }
+.topNav {
+  width: 100vw;
+  @include flex(row, space-evenly, center);
+  img {
+    // max-width: 100px;
+    width: 70px;
+  }
+  :nth-child(3) {
+    width: 30px;
+  }
+  i {
+    font-size: 10px;
+    font-style: normal;
+  }
+}
+.mainImg {
+  width: 80vw;
+}
+.para {
+  font-size: 16px;
+  // text-align: left;
+  font-style: normal;
+  // background-color: red;
+}
+
+.section {
+  overflow: hidden auto;
+  height: calc(100vh - 50px);
+  width: 100vw;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: $secondaryColor;
+  color: $mainColor;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 5px;
+  orientation: portrait;
+  @include flex(column, flex-start, center);
+  div {
+    margin: 20px 5px;
+  }
+}
