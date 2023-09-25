@@ -106,6 +106,15 @@ export default function HomeComp() {
         >
           <img src={link} /> keerthana
         </a>
+        <br />
+        <a
+          className={styles2.anchore}
+          href="https://www.linkedin.com/in/iamkamalraj"
+          rel="author noreferrer"
+          target="_blank"
+        >
+          <img src={link} /> Kamal
+        </a>
       </div>
     </section>
   );
