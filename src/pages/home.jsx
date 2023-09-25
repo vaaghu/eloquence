@@ -2,9 +2,9 @@ import React from "react";
 import link from "@images/link.svg";
 import call_fill from "@images/call_fill.svg";
 
-import logo from "@images/CAHCET-LOGO-FULL.jpeg";
-import nba from "@images/nba-logo.jpeg";
-import mainpic from "@images/mainpic.jpeg";
+import logo from "@images/CAHCET-LOGO-FULL.png";
+import nba from "@images/nba-logo.png";
+import mainpic from "@images/mainpic.png";
 
 import styles1 from "@styles/index.module.scss";
 import styles2 from "@styles/home.module.scss";
@@ -23,20 +23,20 @@ export default function HomeComp() {
         <img className={styles2.mainImg} src={mainpic} alt="" />
       </div>
       <div className={styles2.otherDiv}>
-        <h3>principal</h3>
-        <i className={styles2.para}>Dr.M. Sasi Kumar</i>
+        <h3>Principal</h3>
+        <i className={styles2.para}>Dr. M. Sasi Kumar</i>
       </div>
       <div className={styles2.otherDiv}>
-        <h3>head of department</h3>
-        <i className={styles2.para}>Dr.K. Abrar Ahmed</i>
+        <h3>Head Of Department</h3>
+        <i className={styles2.para}>Dr. K. Abrar Ahmed</i>
       </div>
       <div className={styles2.otherDiv}>
         <h3>coordinators</h3>
-        <i className={styles2.para}>Dr.R.Z. Inamul Hussain</i>
+        <i className={styles2.para}>Dr. R. Z. Inamul Hussain</i>
         <br />
-        <i className={styles2.para}>Mr.K.Suhail Ahmed</i>
+        <i className={styles2.para}>Mr. K. Suhail Ahmed</i>
         <br />
-        <i className={styles2.para}>Mr.B.Palanisamy</i>
+        <i className={styles2.para}>Mr. B. Palanisamy</i>
         <br />
       </div>
       <div className={styles2.otherDiv}>
