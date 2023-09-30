@@ -215,8 +215,8 @@
     "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Flameless+Food+Fiesta+(Cooking+without+fire)",
     "contacts": [
       {
-        "name": "Zaheer",
-        "number": 9789399389
+        "name": "Sandhiya",
+        "number": 8072856125
       }
     ]
   },
@@ -295,6 +295,7 @@
   {
     "id": 11,
     "title": "Virtual War",
+    "price": "30 for solo & 100 for squad",
     "imageId": "BGMI",
     "location": "MBA seminar",
     "timing": "11:00 - 12:30 ",

@@ -1,10 +1,12 @@
+@import "main";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .section {
-  background: #000;
+  background: $secondaryColor;
   height: 100vh;
   width: 100vw;
   position: absolute;
@@ -29,7 +31,7 @@ h1 {
   font-weight: 1200;
   text-transform: uppercase;
   font-size: 30px;
-  color: #ffffff;
+  color: $mainColor;
   text-shadow: 0 0 10px #00d2ff, 0 0 20px #00d2ff, 0 0 30px #00d2ff;
   span {
     display: inline-block;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import home from "@images/home.svg";
 import event from "@images/event.svg";
@@ -29,13 +29,12 @@ export default function NavBar({ navigate }) {
         setIsEvent(true);
         setIsLocation(false);
         break;
-      case "location":
-        setIsHome(false);
-        setIsEvent(false);
-        setIsLocation(true);
-        break;
     }
+    localStorage.setItem("nav", str);
   };
+  useEffect(() => {
+    iconChange(localStorage.getItem("nav"));
+  }, []);
   return (
     <div className={styles.navBar}>
       <button onClick={() => iconChange("home")} className={styles.buttons}>
