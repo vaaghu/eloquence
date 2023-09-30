@@ -37,11 +37,19 @@ export default function NavBar({ navigate }) {
   }, []);
   return (
     <div className={styles.navBar}>
-      <button onClick={() => iconChange("home")} className={styles.buttons}>
+      <button
+        onClick={() => iconChange("home")}
+        className={styles.buttons}
+        style={{ color: isHome ? "#ffd202" : "white" }}
+      >
         <img src={isHome ? home_fill : home} />
         home
       </button>
-      <button onClick={() => iconChange("event")} className={styles.buttons}>
+      <button
+        onClick={() => iconChange("event")}
+        className={styles.buttons}
+        style={{ color: isEvent ? "#ffd202" : "white" }}
+      >
         <img src={isEvent ? event_fill : event} />
         event
       </button>

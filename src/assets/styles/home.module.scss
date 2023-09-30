@@ -20,6 +20,7 @@
   i {
     font-size: 8px;
     font-style: normal;
+    color: $secondaryTextColor;
   }
 }
 .mainImg {
@@ -34,6 +35,12 @@
 }
 .otherDiv {
   margin: 20px 5px;
+  h3 {
+    color: $mainTextColor;
+  }
+  i {
+    color: $secondaryTextColor;
+  }
 }
 .lastDiv {
   margin-bottom: 150px;

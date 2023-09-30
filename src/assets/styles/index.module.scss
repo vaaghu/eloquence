@@ -16,7 +16,7 @@
   width: 100vw;
   height: 50px;
   // min-height: 5%;
-  background-color: $secondaryColor;
+  background-color: #09153f;
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -29,7 +29,7 @@
     width: 30px;
     height: auto;
   }
-  color: $mainColor;
+  color: $secondaryTextColor;
   @include flex(column, center, center);
   background-color: transparent;
   border: none;
@@ -50,6 +50,8 @@
   padding: 10px 5px;
   orientation: portrait;
   @include flex(column, flex-start, center);
+  // background: linear-gradient(to left ,#09153f,#1c4a9f 50%,#09153f);
+  background: radial-gradient(circle, #1c4a9f, #09153f);
 }
 .section p {
   font-weight: bolder;

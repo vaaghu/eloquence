@@ -5,7 +5,7 @@
   height: 100vh;
   width: 100vw;
   margin-bottom: 50px;
-  background-color: $secondaryColor;
+  background: radial-gradient(circle, #1c4a9f, #09153f);
   color: $mainColor;
   font-family: "Poppins", sans-serif;
   padding: 10px 5px;
@@ -15,6 +15,16 @@
   left: 0px;
   @include flex(column, flex-start, center);
 }
+.textDiv {
+  margin: 5px 5px 20px 5px;
+  width: 98vw;
+  @include flex(column, flex-start, flex-start);
+  p {
+    text-align: left;
+    padding: 5px;
+    color: $secondaryTextColor;
+  }
+}
 .registerButton,
 .contactButton {
   height: 35px;
@@ -23,7 +33,7 @@
   font-size: 15px;
   text-decoration: none;
   background-color: $mainColor;
-  color: $secondaryColor;
+  // supportTextColor;
   border-radius: 15px;
   font-weight: 800;
   margin-right: 15px;
@@ -34,6 +44,7 @@
     font-size: 14px;
     word-break: keep-all;
     word-wrap: normal;
+    color: $secondaryColor;
   }
   img {
     margin: 0px;
@@ -42,15 +53,7 @@
     width: 35px;
     height: 35px;
     border: 5px solid $secondaryColor;
-  }
-}
-.textDiv {
-  margin: 5px 5px 20px 5px;
-  width: 98vw;
-  @include flex(column, flex-start, flex-start);
-  p {
-    text-align: left;
-    padding: 5px;
+    fill: red;
   }
 }
 .info {
@@ -60,17 +63,19 @@
   font-size: 15px;
 }
 .notice {
-  background-color: rgba(255, 255, 0, 0.2);
+  background-color: rgba(167, 167, 0, 0.2);
   border-radius: 15px;
   border: 2px solid rgba(255, 255, 0, 0.5);
   font-size: 14px;
   margin: 10px 1px;
+  color: $supportTextColor;
 }
 .topNavBar {
   @include flex(row, space-between, center);
   width: 100vw;
   padding: 1px 10px;
 }
+
 .contactDiv {
   @extend .textDiv;
   a {
@@ -79,12 +84,13 @@
   margin-bottom: 25vh;
   height: 80px;
 }
+
 .rules {
   width: 98vw;
   @include flex(column, flex-start, center);
   div {
     // border:1px rgba(255, 0, 0, 0.4) solid;
-    background: rgba(255, 0, 0, 0.05);
+    background: rgba(100, 0, 0, 0.2);
     border-radius: 15px;
     margin: 10px 2px;
     padding: 10px;
@@ -93,11 +99,16 @@
     font-size: 18px;
     font-family: 600;
   }
+  h3 {
+    color: $mainTextColor;
+  }
   ul {
     margin-left: 15px;
     li {
       font-family: 400;
       font-size: 14px;
+      color: $secondaryTextColor;
+      margin-bottom: 10px;
     }
   }
 }

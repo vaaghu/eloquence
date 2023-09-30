@@ -5,10 +5,10 @@ import styles3 from "@styles/event.module.scss";
 import PropTypes from "prop-types";
 
 import arrowLeft from "@images/arrowLeft.svg";
-import contact from "@images/call_fill.svg";
-import register from "@images/register.svg";
+import contact from "@images/call_fill_secondary.svg";
+import register from "@images/register_secondary.svg";
 import timer from "@images/timer.svg";
-import location from "@images/location.svg";
+import location from "@images/location_secondary.svg";
 import rupee from "@images/rupee.svg";
 
 export default function EventInfoComp({ navigate }) {
@@ -78,7 +78,7 @@ export default function EventInfoComp({ navigate }) {
             {eventInfo.rules.map((event, index) => {
               return (
                 <div key={index}>
-                  <p>{Object.keys(event)[0]}:</p>
+                  <h3>{Object.keys(event)[0]}:</h3>
                   <>
                     <ul>
                       {event[Object.keys(event)[0]].map((element, index) => {
