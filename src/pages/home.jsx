@@ -78,8 +78,8 @@ export default function HomeComp() {
         </a>
         <br />
       </div>
-      <div className={styles2.devDiv}>
-        <h3>Developers</h3>
+      <div className={styles2.otherDiv}>
+        <h3>Developers team</h3>
         <a
           className={styles2.anchore}
           href="https://linktr.ee/vaaghu"
@@ -104,17 +104,38 @@ export default function HomeComp() {
           rel="author noreferrer"
           target="_blank"
         >
-          <img src={link} /> keerthana
+          <img src={link} /> Keerthana
         </a>
-        <br />
+      </div>
+      <div className={styles2.lastDiv}>
+        <h3>Design team</h3>
         <a
           className={styles2.anchore}
-          href="https://www.linkedin.com/in/iamkamalraj"
+          href="https://linktr.ee/iamkamalraj"
           rel="author noreferrer"
           target="_blank"
         >
           <img src={link} /> Kamal
         </a>
+        <br />
+        <a
+          className={styles2.anchore}
+          href="https://linktr.ee/mohamedrafique"
+          rel="author noreferrer"
+          target="_blank"
+        >
+          <img src={link} /> Mohamed Rafique
+        </a>
+        <br />
+        <a
+          className={styles2.anchore}
+          href="https://linktr.ee/rakshasria1"
+          rel="author noreferrer"
+          target="_blank"
+        >
+          <img src={link} /> Raksha Sri
+        </a>
+        <br />
       </div>
     </section>
   );
