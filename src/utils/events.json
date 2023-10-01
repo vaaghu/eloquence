@@ -69,20 +69,23 @@
     "title": "Clash For Design",
     "location": "IV cse-B",
     "timing": "01:30 - 02:30",
-    "notice": "participants must bring their portable personal computer.",
+    "notice": "A team can have Max of 3 MEMBERS, individual participation is also allowed",
     "imageId": "WebDev",
     "rules": [
       {
-        "Rules": [
-          "participants are strictly prohibited from copying codes from github, stack overflow, codepen, chatgpt and other sources. any team found violation this rule will be disqualified from the competition...",
-          "participants are limited to use three web development languages : html, css and javascript .",
-          "participants are not allowed to use their mobile phone during events ( except emergency )",
-          "participants may use their mobile phones for internet connectivity only if necessary.",
-          "participants must submit their project design on time , as failure to do so may result in disqualification from the contest .",
-          "participants must create and design the website themselves without the help of others. although collaboration between team members is allowed, but each individual should contribute to the project .",
-          "participants must ensure that their website is appropriate and respectful. any offensive or inappropriate will be tolerated nd may result in disqualification..",
-          "participants are limited to using only creative commons picture. some examples of website that provide access to such pictures include flickr, pixabay, unsplash, creative commons search and others..",
-          "participants must respect the judges and their decisions. their decision is final and cannot be opposed"
+        "Rules & Regulations": [
+          "Students can either participate as an individual or as a team",
+          "The duration of whole event will be 1 hour (approximately)",
+          "Participants must bring their own portable personal computer",
+          "Each team will be allowed have a single laptop & a mobile phone (for internet connectivity)"
+        ]
+      },
+      {
+        "Round One": [
+          "Participants will be provided with a design template",
+          "Each team has to develop design within the given duration.",
+          "Teams are limited to use HTML, CSS and JS",
+          "Teams are strictly prohibited from copying codes from GitHub, stackoverflow, codepen, ChatGPT etc"
         ]
       }
     ],
@@ -168,7 +171,7 @@
   },
   {
     "id": 6,
-    "title": "light camera action",
+    "title": "Light Camera Action",
     "imageId": "Shortfilm",
     "notice": "Both mobile and DSLR can be used to shoot the movie.",
     "timing": "ends at 02:30",
@@ -191,11 +194,11 @@
   },
   {
     "id": 7,
-    "title": "flameless food fiesta",
+    "title": "Flameless Food Fiesta",
     "price": "100 per person",
     "imageId": "cooking",
     "location": "EEE",
-    "timing": "11:30 - 12:30",
+    "timing": "11:00 - 12:30",
     "notice": "Evaluation is based on the taste, hygiene & presentation",
     "rules": [
       {
@@ -222,7 +225,7 @@
   },
   {
     "id": 8,
-    "title": "visual art",
+    "title": "Visual Art",
     "imageId": "Art",
     "location": "EEE",
     "timing": "01:30 - 02:30 ",
@@ -245,7 +248,7 @@
   },
   {
     "id": 9,
-    "title": "freeze frame",
+    "title": "Freeze Frame",
     "imageId": "photo",
     "timing": "ends at 02:30",
     "notice": "Photos should be uploaded to this email -> 'freezeframe2k23@gmail.com'",
