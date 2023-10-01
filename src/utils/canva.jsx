@@ -251,11 +251,7 @@ export default function Canva() {
     const updateDimension = () => {
       setScreenSize(getCurrentDimension());
     };
-    window.addEventListener("resize", updateDimension);
-
-    return () => {
-      window.removeEventListener("resize", updateDimension);
-    };
+    document.body.addEventListener("resize", updateDimension);
   }, [screenSize]);
   // window.addEventListener("resize", (p5) => {
   //   p5.noLoop();
