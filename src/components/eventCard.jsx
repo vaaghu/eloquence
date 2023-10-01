@@ -21,7 +21,7 @@ export default function EventCard({ data, navigate }) {
   };
   return (
     <div className={styles.eventCard} onClick={displayInfo}>
-      <img src={image} loading="lazy" />
+      <img src={image} />
       <p>{data.title}</p>
     </div>
   );
