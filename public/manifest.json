@@ -3,8 +3,8 @@
   "background_color": "#ffffff",
   "scope": "/",
   "start_url": "/",
-  "short_name": "template",
-  "name": "template",
+  "short_name": "eloquence",
+  "name": "eloquence",
   "display": "standalone",
   "target": "_blank",
   "icons": [

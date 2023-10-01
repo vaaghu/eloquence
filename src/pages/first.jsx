@@ -4,7 +4,13 @@ import styles from "@styles/first.module.scss";
 export default function FirstComp({ navigate }) {
   useEffect(() => {
     setTimeout(() => {
-      navigate(`./${localStorage.getItem("nav")}`);
+      navigate(
+        `./${
+          localStorage.getItem("nav") == "null"
+            ? "home"
+            : localStorage.getItem("nav")
+        }`
+      );
     }, 2500); //2.5sec
   });
   return (
