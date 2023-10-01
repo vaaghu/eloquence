@@ -10,7 +10,6 @@
   overflow: hidden;
   orientation: portrait;
   height: -webkit-fill-available;
-  z-index: 0;
   // background-image: url('/src/assets/images/backgroundImg2.jpg');
 }
 
@@ -24,7 +23,7 @@
   bottom: 0px;
   left: 0px;
   @include flex(row, space-evenly, center);
-  z-index: 1;
+  z-index: 0;
 }
 
 .buttons {
