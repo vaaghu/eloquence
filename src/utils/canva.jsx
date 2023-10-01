@@ -243,7 +243,7 @@ export default function Canva() {
   function getCurrentDimension() {
     return {
       width: window.innerWidth,
-      height: window.innerHeight,
+      height: window.innerHeight - 5,
     };
   }
 

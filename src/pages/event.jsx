@@ -35,6 +35,7 @@ export default function EventComp({ navigate }) {
       ); // Set the desired initial value (in pixels)
     }
   }, []);
+  console.log(localStorage.getItem("searchText"));
   return (
     <section
       className={styles1.section}
@@ -49,9 +50,9 @@ export default function EventComp({ navigate }) {
           type="text"
           placeholder="search bar"
           value={
-            localStorage.getItem("searchText") == "null"
-              ? " "
-              : localStorage.getItem("searchText")
+            localStorage.getItem("searchText") !== null
+              ? localStorage.getItem("searchText")
+              : ""
           }
           onChange={filter}
           onBlur={filter}
