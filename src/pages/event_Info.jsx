@@ -15,7 +15,7 @@ export default function EventInfoComp({ navigate }) {
   let eventInfo = JSON.parse(localStorage.getItem("eventInfo"));
   const [image, setImage] = useState(null);
   useEffect(() => {
-    import(`../assets/images/${eventInfo.imageId}.jpg`)
+    import(`../assets/images/${eventInfo.imageId}.webp`)
       .then((imageModule) => {
         setImage(imageModule.default);
       })

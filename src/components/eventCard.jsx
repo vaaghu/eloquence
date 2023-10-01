@@ -7,7 +7,7 @@ export default function EventCard({ data, navigate }) {
   const [image, setImage] = useState(null);
 
   useEffect(() => {
-    import(`../assets/images/${data.imageId}.jpg`)
+    import(`../assets/images/${data.imageId}.webp`)
       .then((imageModule) => {
         setImage(imageModule.default);
       })
@@ -21,7 +21,7 @@ export default function EventCard({ data, navigate }) {
   };
   return (
     <div className={styles.eventCard} onClick={displayInfo}>
-      <img src={image} />
+      <img src={image} loading="lazy" />
       <p>{data.title}</p>
     </div>
   );
