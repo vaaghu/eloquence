@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { useNavigate } from "react-router-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import * as serviceWorkerRegistration from "@utils/serviceWorkerRegistration";
-
+import Canva from "@utils/canva";
 import NavBar from "@components/navBar";
 import HomeComp from "@pages/home";
 // import AboutComp from "@pages/about";
@@ -47,6 +47,7 @@ function IndexComp() {
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
+    <Canva />
     <App />
   </div>
 );

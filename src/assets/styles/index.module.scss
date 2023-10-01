@@ -10,13 +10,14 @@
   overflow: hidden;
   orientation: portrait;
   height: -webkit-fill-available;
+  // background-image: url('/src/assets/images/backgroundImg2.jpg');
 }
 
 .navBar {
   width: 100vw;
   height: 50px;
   // min-height: 5%;
-  background-color: #09153f;
+  // background-color: #09153f;
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -50,8 +51,10 @@
   padding: 10px 5px;
   orientation: portrait;
   @include flex(column, flex-start, center);
-  // background: linear-gradient(to left ,#09153f,#1c4a9f 50%,#09153f);
-  background: radial-gradient(circle, #1c4a9f, #09153f);
+  background: transparent;
+  // background: radial-gradient(circle, #1c4a9f, #09153f);
+  background-size: auto 100vh;
+  backdrop-filter: opacity(0.2);
 }
 .section p {
   font-weight: bolder;

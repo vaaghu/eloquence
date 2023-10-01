@@ -6,7 +6,7 @@
     "price": "100 per person",
     "timing": "10:30 - 01:00 ",
     "description": "This competition provides a perfect platform for the students to come forward and be the leaders of future by demonstrating their creative and technical skills as well as their knowledge.Students will be presenting a topic on any emerging concepts, recent technological trends and development, which will help them in honoring skills for their technical future.",
-    "imageId": "Paper_Presentation",
+    "imageId": "PaperPres",
     "notice": "topics are Artificial intelligence, Blockchain, cloud computing, and topics related to latest technological trends",
     "rules": [
       {
@@ -56,7 +56,7 @@
       }
     ],
     "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=Cipherx+(coding+and+Debugging)",
-    "imageId": "Coding_and_Debugging",
+    "imageId": "Coding&Debugging",
     "contacts": [
       {
         "name": "Fayaz",
@@ -70,7 +70,7 @@
     "location": "IV cse-B",
     "timing": "01:30 - 02:30",
     "notice": "participants must bring their portable personal computer.",
-    "imageId": "Web_Dev",
+    "imageId": "WebDev",
     "rules": [
       {
         "Rules": [
@@ -99,7 +99,7 @@
     "title": "Tech Quest",
     "location": "ECE",
     "timing": "11:45 - 12:45",
-    "imageId": "Tech_Quiz",
+    "imageId": "Quix",
     "notice": [
       "A team can have Maximum TWO MEMBERS,INDIVIDUAL participation is also allowed.",
       "Teams must have a TEAM NAME for their identification.",
@@ -169,7 +169,7 @@
   {
     "id": 6,
     "title": "light camera action",
-    "imageId": "lights_camera_action",
+    "imageId": "Shortfilm",
     "notice": "Both mobile and DSLR can be used to shoot the movie.",
     "timing": "ends at 02:30",
     "rules": [
@@ -193,7 +193,7 @@
     "id": 7,
     "title": "flameless food fiesta",
     "price": "100 per person",
-    "imageId": "Cooking_without_fire",
+    "imageId": "cooking",
     "location": "EEE",
     "timing": "11:30 - 12:30",
     "notice": "Evaluation is based on the taste, hygiene & presentation",
@@ -246,7 +246,7 @@
   {
     "id": 9,
     "title": "freeze frame",
-    "imageId": "Photography",
+    "imageId": "photo",
     "timing": "ends at 02:30",
     "notice": "Photos should be uploaded to this email -> 'freezeframe2k23@gmail.com'",
     "rules": [
@@ -274,7 +274,7 @@
     "location": "MEch",
     "timing": "10:30 - 11:30",
     "description": "Debate is a process that involves formal discussion and oral addresses on a particular topic or collection of topics, often with a moderator and an audience. In a debate, arguments are put forward for common opposing viewpoints.",
-    "imageId": "Debate",
+    "imageId": "ControversyClash",
     "notice": "Topic related to latest technological trend will be given on the spot.",
     "rules": [
       {
