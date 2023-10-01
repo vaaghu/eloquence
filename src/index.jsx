@@ -46,7 +46,7 @@ function IndexComp() {
 let root = null;
 root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <div style={{ backgroundColor: "rgb(9, 21, 63)", height: "101vh" }}>
+  <div style={{ backgroundColor: "rgb(9, 21, 63)", height: "100vh" }}>
     <Canva />
     <App />
   </div>
