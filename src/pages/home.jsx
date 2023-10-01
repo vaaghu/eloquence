@@ -96,11 +96,11 @@ export default function HomeComp() {
         <br />
         <a
           className={styles2.anchore}
-          href="https://linktr.ee/riyaz03"
+          href="https://instagram.com/md.riyaz2003?igshid=OGQ5ZDc2ODk2ZA=="
           rel="author noreferrer"
           target="_blank"
         >
-          <img src={link} /> Riayz
+          <img src={link} /> Riyaz
         </a>
         <br />
         <a
