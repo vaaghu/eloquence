@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Sketch from "react-p5";
 
-import "./p5Extensions";
-
 export default function Canva() {
   function distanceBetween(x1, y1, x2, y2) {
     let difX = x2 - x1;
