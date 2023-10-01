@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { useNavigate } from "react-router-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import * as serviceWorkerRegistration from "@utils/serviceWorkerRegistration";
+// import * as serviceWorkerRegistration from "@utils/serviceWorkerRegistration";
 import Canva from "@utils/canva";
 import NavBar from "@components/navBar";
 import HomeComp from "@pages/home";
@@ -52,4 +52,4 @@ root.render(
   </div>
 );
 
-serviceWorkerRegistration.register();
+// serviceWorkerRegistration.register();

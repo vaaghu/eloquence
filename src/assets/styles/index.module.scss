@@ -17,7 +17,8 @@
   width: 100vw;
   height: 50px;
   // min-height: 5%;
-  // background-color: #09153f;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
   position: absolute;
   bottom: 0px;
   left: 0px;
