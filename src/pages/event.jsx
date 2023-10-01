@@ -48,7 +48,11 @@ export default function EventComp({ navigate }) {
         <input
           type="text"
           placeholder="search bar"
-          value={localStorage.getItem("searchText")}
+          value={
+            localStorage.getItem("searchText") == "null"
+              ? " "
+              : localStorage.getItem("searchText")
+          }
           onChange={filter}
           onBlur={filter}
         />

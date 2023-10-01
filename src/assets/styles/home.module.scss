@@ -42,6 +42,14 @@
     color: $secondaryTextColor;
   }
 }
+.logoDiv {
+  @extend .otherDiv;
+  p {
+    color: $secondaryTextColor;
+    font-size: 14px;
+    padding: 2px;
+  }
+}
 .lastDiv {
   margin-bottom: 150px;
 }

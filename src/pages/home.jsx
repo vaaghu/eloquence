@@ -22,7 +22,8 @@ export default function HomeComp() {
         </i>
         <img src={nba} alt="" />
       </div>
-      <div className={styles2.otherDiv}>
+      <div className={styles2.logoDiv}>
+        <p>On 7th Oct </p>
         <img className={styles2.mainImg} src={mainpic} alt="" />
       </div>
       <CountdownClock />
