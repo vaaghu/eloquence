@@ -1,7 +1,7 @@
 @import "main";
 .anchore {
   text-decoration: none;
-  color: $anchormainColor;
+  color: $secondaryTextColor;
   img {
     width: 18px;
     margin-right: 5px;
@@ -57,4 +57,21 @@
   padding: 10px 5px;
   orientation: portrait;
   @include flex(column, flex-start, center);
+}
+
+.countDown {
+  @include flex(row, space-evenly, center);
+  width: 70vw;
+}
+.countDownTimer {
+  font-size: 55px;
+  // background-color: $secondaryTextColor;
+  padding: 0px 10px;
+  border-radius: 15px;
+  font-weight: 800;
+  color: $secondaryTextColor;
+  text-shadow: 0px 0px 10px $mainTextColor;
+}
+.countDownTitle {
+  font-size: 12px;
 }

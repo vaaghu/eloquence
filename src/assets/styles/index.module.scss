@@ -17,7 +17,7 @@
   width: 100vw;
   height: 50px;
   // min-height: 5%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(20px);
   position: absolute;
   bottom: 0px;
@@ -56,10 +56,4 @@
   // background: radial-gradient(circle, #1c4a9f, #09153f);
   background-size: auto 100vh;
   backdrop-filter: opacity(0.2);
-}
-.section p {
-  font-weight: bolder;
-  font-size: larger;
-  text-align: center;
-  letter-spacing: 2px;
 }

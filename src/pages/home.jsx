@@ -8,6 +8,9 @@ import mainpic from "@images/mainpic.png";
 
 import styles1 from "@styles/index.module.scss";
 import styles2 from "@styles/home.module.scss";
+
+import CountdownClock from "@components/countDown";
+
 export default function HomeComp() {
   return (
     <section className={styles1.section}>
@@ -22,6 +25,7 @@ export default function HomeComp() {
       <div className={styles2.otherDiv}>
         <img className={styles2.mainImg} src={mainpic} alt="" />
       </div>
+      <CountdownClock />
       <div className={styles2.otherDiv}>
         <h3>Principal</h3>
         <i className={styles2.para}>Dr. M. Sasi Kumar</i>
