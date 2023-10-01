@@ -29,4 +29,7 @@ $supportColor: rgba(0, 0, 0, 0.3);
 #root {
   background-color: $secondaryColor;
   margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
