@@ -95,7 +95,7 @@ export default function EventInfoComp({ navigate }) {
       {eventInfo.contacts && (
         <div className={styles1.contactDiv}>
           {eventInfo.contacts.map((person, index) => {
-            console.log(person);
+            // console.log(person);
             return (
               <a
                 key={index}

@@ -43,8 +43,8 @@ function IndexComp() {
     </div>
   );
 }
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
+let root = null;
+root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
     <Canva />
