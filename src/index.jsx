@@ -13,6 +13,7 @@ import FirstComp from "@pages/first";
 
 import styles from "@styles/index.module.scss";
 import EventInfoComp from "@pages/event_Info";
+
 function App() {
   return (
     <BrowserRouter>
@@ -46,7 +47,7 @@ function IndexComp() {
 let root = null;
 root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <div style={{ backgroundColor: "rgb(9, 21, 63)", height: "100vh" }}>
+  <div className={styles.root}>
     <Canva />
     <App />
   </div>
