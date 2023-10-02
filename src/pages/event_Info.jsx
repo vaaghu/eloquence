@@ -57,7 +57,7 @@ export default function EventInfoComp({ navigate }) {
           <img src={register} />
         </a>
       </div>
-      <div className={styles3.eventCard}>
+      <div className={styles3.eventCardGlow}>
         <img src={image} />
         <p>{eventInfo.title}</p>
       </div>

@@ -5,7 +5,6 @@ import styles from "@styles/event.module.scss";
 
 export default function EventCard({ data, navigate }) {
   const [image, setImage] = useState(null);
-
   useEffect(() => {
     import(`../assets/images/${data.imageId}.webp`)
       .then((imageModule) => {
@@ -20,10 +19,12 @@ export default function EventCard({ data, navigate }) {
     navigate("../eventInfo");
   };
   return (
-    <div className={styles.eventCard} onClick={displayInfo}>
-      <img src={image} />
-      <p>{data.title}</p>
-    </div>
+    image && (
+      <div className={styles.eventCard} onClick={displayInfo}>
+        <img src={image} />
+        <p>{data.title}</p>
+      </div>
+    )
   );
 }
 EventCard.propTypes = {

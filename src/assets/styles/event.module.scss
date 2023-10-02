@@ -1,31 +1,103 @@
 @import "main";
 
 .eventCard {
-  @include flex(column, space-between, center);
+  @include flex(column, center, center);
   // border: solid 1px $mainColor;
   width: 90vw;
   height: 235px;
   border-radius: 15px;
   margin: 10px 5px;
   img {
-    width: 100%;
-    height: 200px;
+    width: 89vw;
+    height: 198px;
     border-radius: 15px 15px 0px 0px;
-    filter: opacity(0.8);
+    filter: opacity(1);
+    z-index: 2;
   }
   p {
     @include flex(row, center, center);
     height: 35px;
-    width: 100%;
+    width: 89vw;
     margin: 2px;
     margin-top: 0px;
     // transform: translateY(-33px);
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: $secondaryColor;
     text-align: center;
     color: $secondaryTextColor;
     // margin-left: 15px;
     font-size: 18px;
-    border-radius: 0px 0px 25px 25px;
+    border-radius: 0px 0px 15px 15px;
+    z-index: 2;
+  }
+}
+
+.eventCardGlow {
+  @extend .eventCard;
+  position: relative;
+  width: 90vw;
+  height: 90vw;
+  // max-width: 550px;
+  // max-height: 550px;
+  min-height: 240px;
+  background: $secondaryColor;
+  // border-radius: 50px 50px;
+  margin-top: 70px;
+  // animation: glow_container 4s linear infinite;
+  overflow: hidden;
+  z-index: 1;
+  &::before,
+  &::after {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    animation: rotate_border 4s linear infinite;
+    content: "";
+  }
+
+  &::before {
+    background-image: conic-gradient(
+      transparent,
+      transparent,
+      #ffffff,
+      transparent
+    );
+  }
+
+  &::after {
+    animation-delay: -4s;
+    background: conic-gradient(transparent, transparent, transparent, #eeff00);
+    background-size: 200% 200%;
+    background-position: 50%;
+  }
+}
+
+@keyframes rotate_border {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+$glowColor1: rgba(255, 209, 2, 0.8);
+$glowColor2: rgba(255, 255, 255, 0);
+@keyframes glow_container {
+  0% {
+    box-shadow: 0 5px 8px $glowColor2, 0 -5px 12px $glowColor1;
+  }
+  25% {
+    box-shadow: -5px 5px 8px $glowColor2, 5px 0 12px $glowColor1;
+  }
+  50% {
+    box-shadow: 0 -5px 8px $glowColor2, 0 5px 12px $glowColor1;
+  }
+  75% {
+    box-shadow: 5px 5px 8px $glowColor2, -5px 0 12px $glowColor1;
+  }
+  100% {
+    box-shadow: 0 5px 8px $glowColor2, 0 -5px 12px $glowColor1;
   }
 }
 .eventsContainer {
