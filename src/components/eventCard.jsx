@@ -20,8 +20,12 @@ export default function EventCard({ data, navigate }) {
   };
   return (
     <div className={styles.eventCard} onClick={displayInfo}>
-      <img src={image} />
-      <p>{data.title}</p>
+      {image && (
+        <>
+          <img src={image} />
+          <p>{data.title}</p>
+        </>
+      )}
     </div>
   );
 }
