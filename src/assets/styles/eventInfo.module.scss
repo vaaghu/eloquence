@@ -77,6 +77,7 @@
   @include flex(row, space-between, center);
   // transition-duration: 1s;
   // transition: linear;
+  cursor: grabbing;
   P {
     margin: 1px 10px;
     font-size: 14px;

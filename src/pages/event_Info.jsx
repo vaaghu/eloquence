@@ -19,10 +19,11 @@ export default function EventInfoComp({ navigate }) {
     // event.preventDefault();
     let button = event.currentTarget;
     setTimeout(() => {
+      console.log(button);
       document.activeElement.blur();
     }, 700);
     setTimeout(function () {
-      window.open(button.href, "_blank");
+      // window.open(button.href, "_blank");
     }, 1200);
   }
   useEffect(() => {
