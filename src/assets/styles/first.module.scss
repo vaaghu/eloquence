@@ -82,3 +82,26 @@ h1 {
     }
   }
 }
+
+.errorSection {
+  @extend .section;
+  @include flex(column, center, center);
+  font-size: 25px;
+  color: $secondaryTextColor;
+  font-family: "Poppins", sans-serif;
+  p {
+    margin: 10px 1px;
+  }
+
+  button {
+    font-size: 30px;
+    font-family: 800;
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: $secondaryColor;
+    background-color: $mainColor;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    margin-top: 15px;
+  }
+}

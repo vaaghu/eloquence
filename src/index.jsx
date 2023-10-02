@@ -7,7 +7,7 @@ import Canva from "@utils/canva";
 import NavBar from "@components/navBar";
 import HomeComp from "@pages/home";
 // import AboutComp from "@pages/about";
-import MapComp from "@pages/map";
+import ErrorComp from "@pages/error";
 import EventComp from "@pages/event";
 import FirstComp from "@pages/first";
 
@@ -33,12 +33,12 @@ function IndexComp() {
         {/* <Route path="*" element={<ErrorComp />} /> */}
         <Route path="/" element={<FirstComp navigate={navigate} />} />
         <Route path="/home" element={<HomeComp navigate={navigate} />} />
-        <Route path="/location" element={<MapComp navigate={navigate} />} />
         <Route
           path="/eventInfo"
           element={<EventInfoComp navigate={navigate} />}
         />
         <Route path="/event" element={<EventComp navigate={navigate} />} />
+        <Route path="/*" element={<ErrorComp navigate={navigate} />} />
       </Routes>
       <NavBar navigate={navigate} />
     </div>

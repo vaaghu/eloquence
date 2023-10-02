@@ -14,6 +14,7 @@
   top: 0px;
   left: 0px;
   @include flex(column, flex-start, center);
+  font-family: "Poppins", sans-serif;
 }
 .textDiv {
   margin: 5px 5px 20px 5px;
@@ -23,6 +24,7 @@
     text-align: left;
     padding: 5px;
     color: $secondaryTextColor;
+    font-family: "Poppins", sans-serif;
   }
 }
 .registerButton,
@@ -45,6 +47,7 @@
     word-break: keep-all;
     word-wrap: normal;
     color: $secondaryColor;
+    font-family: "Poppins", sans-serif;
   }
   img {
     margin: 0px;
@@ -98,9 +101,11 @@
   p {
     font-size: 18px;
     font-family: 600;
+    font-family: "Poppins", sans-serif;
   }
   h3 {
     color: $mainTextColor;
+    font-family: "Poppins", sans-serif;
   }
   ul {
     margin-left: 15px;
@@ -109,6 +114,7 @@
       font-size: 14px;
       color: $secondaryTextColor;
       margin-bottom: 10px;
+      font-family: "Poppins", sans-serif;
     }
   }
 }
