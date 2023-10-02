@@ -19,12 +19,10 @@ export default function EventCard({ data, navigate }) {
     navigate("../eventInfo");
   };
   return (
-    image && (
-      <div className={styles.eventCard} onClick={displayInfo}>
-        <img src={image} />
-        <p>{data.title}</p>
-      </div>
-    )
+    <div className={styles.eventCard} onClick={displayInfo}>
+      <img src={image} />
+      <p>{data.title}</p>
+    </div>
   );
 }
 EventCard.propTypes = {

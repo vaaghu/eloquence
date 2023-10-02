@@ -30,12 +30,13 @@ export default function EventComp({ navigate }) {
   useEffect(() => {
     filter(localStorage.getItem("searchText"));
     if (sectionRef.current) {
+      console.log(localStorage.getItem("scrollTop"));
       sectionRef.current.scrollTop = parseInt(
         localStorage.getItem("scrollTop")
       ); // Set the desired initial value (in pixels)
     }
   }, []);
-  console.log(localStorage.getItem("searchText"));
+  // console.log(localStorage.getItem("searchText"));
   return (
     <section
       className={styles1.section}
