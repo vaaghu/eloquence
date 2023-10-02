@@ -69,13 +69,14 @@
   text-decoration: none;
   background-color: $mainColor;
   // supportTextColor;
+  // border: 2px white solid;
   border-radius: 25px;
   font-weight: 800;
   margin-right: 15px;
   padding: 0px;
   @include flex(row, space-between, center);
-  transition-duration: 1s;
-  transition: linear;
+  // transition-duration: 1s;
+  // transition: linear;
   P {
     margin: 1px 10px;
     font-size: 14px;
@@ -93,8 +94,8 @@
     border: 5px solid $secondaryColor;
   }
 }
-.registerButton:active,
-.contactButton:active {
+.registerButton:focus,
+.contactButton:focus {
   width: 40px;
   border-radius: 50px;
 

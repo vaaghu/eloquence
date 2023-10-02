@@ -15,20 +15,13 @@ export default function EventInfoComp({ navigate }) {
   let eventInfo = JSON.parse(localStorage.getItem("eventInfo"));
   const [image, setImage] = useState(null);
   function toggleActive(event) {
-    event.preventDefault();
-    setTimeout(function () {
-      console.log(button.href);
-      window.open(button.href, "_blank");
-    }, 1000);
-
+    console.log(event.target, event.currentTarget);
+    // event.preventDefault();
     let button = event.currentTarget;
-    console.log(button.classList.contains("active"));
-    button.classList.toggle("active");
-    if (button.classList.contains("active")) {
-      setTimeout(function () {
-        button.classList.remove("active");
-      }, 1000);
-    }
+    setTimeout(function () {
+      document.activeElement.blur();
+      window.open(button.href, "_blank");
+    }, 700);
   }
   useEffect(() => {
     import(`../assets/images/${eventInfo.imageId}.webp`)
@@ -55,7 +48,7 @@ export default function EventInfoComp({ navigate }) {
           href={eventInfo.link}
           target="_blank"
           rel="noreferrer"
-          onClick={(event) => toggleActive(event)}
+          onFocus={(event) => toggleActive(event)}
         >
           <p>Register</p>
           <img src={register} />
@@ -118,7 +111,7 @@ export default function EventInfoComp({ navigate }) {
                 key={index}
                 href={`tel:${person.number}`}
                 className={styles1.contactButton}
-                onClick={(event) => toggleActive(event)}
+                onFocus={(event) => toggleActive(event)}
               >
                 <img src={contact} />
                 <p>{person.name}</p>
