@@ -18,10 +18,12 @@ export default function EventInfoComp({ navigate }) {
     console.log(event.target, event.currentTarget);
     // event.preventDefault();
     let button = event.currentTarget;
-    setTimeout(function () {
+    setTimeout(() => {
       document.activeElement.blur();
-      window.open(button.href, "_blank");
     }, 700);
+    setTimeout(function () {
+      window.open(button.href, "_blank");
+    }, 1200);
   }
   useEffect(() => {
     import(`../assets/images/${eventInfo.imageId}.webp`)
