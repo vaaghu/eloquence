@@ -11,7 +11,7 @@ export default function ErrorComp({ navigate }) {
           navigate("../");
         }}
       >
-        go Home
+        Go Home
       </button>
     </section>
   );
