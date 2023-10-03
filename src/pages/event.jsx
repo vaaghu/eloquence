@@ -28,6 +28,7 @@ export default function EventComp({ navigate }) {
   };
 
   useEffect(() => {
+    console.log(eventsData);
     filter(localStorage.getItem("searchText"));
     if (sectionRef.current) {
       console.log(localStorage.getItem("scrollTop"));
