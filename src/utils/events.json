@@ -337,24 +337,5 @@
         "number": 9080618420
       }
     ]
-  },
-  {
-    "id": 12,
-    "title": "Street Cricket",
-    "location": "BasketBall Court",
-    "timing": "10:30 - 3:30",
-    "price":"200 per team",
-    "imageId": "StreetCricket",
-    "notice": "Maximum of 6 members per team",
-    "rules": [
-      {
-        "rules": [
-          "The team-head should register for the event on behalf of the team",
-          "Umpire decision is final"
-        ]
-      }
-    ],
-    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Street+Cricket",
-    "contacts": [{ "name": "Thejas", "number": 9003829145 }]
   }
 ]
