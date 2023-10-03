@@ -29,7 +29,7 @@
   {
     "id": 2,
     "title": "CipherX",
-    "location": "Tech tower lab-7",
+    "location": "Tech tower",
     "timing": "10:30 - 11:45 ",
     "description": "Embrace the world of coding and debugging with open arms. Code is your canvas, bugs are your puzzles, and solutions are your creations. Welcome to the journey of digital problem-solving and innovation!!!",
     "notice": [
@@ -67,7 +67,7 @@
   {
     "id": 3,
     "title": "Clash For Design",
-    "location": "IV cse-B",
+    "location": "Tech tower",
     "timing": "01:30 - 02:30",
     "notice": "A team can have Max of 3 MEMBERS, individual participation is also allowed",
     "imageId": "WebDev",
@@ -100,7 +100,7 @@
   {
     "id": 4,
     "title": "Tech Quest",
-    "location": "ECE",
+    "location": "ECE seminar hall",
     "timing": "11:45 - 12:45",
     "imageId": "Quix",
     "notice": [
@@ -195,7 +195,7 @@
     "title": "Flameless Food Fiesta",
     "price": "100 per person",
     "imageId": "cooking",
-    "location": "EEE",
+    "location": "EEE seminar hall",
     "timing": "11:00 - 12:30",
     "notice": "Evaluation is based on the taste, hygiene & presentation",
     "rules": [
@@ -225,7 +225,7 @@
     "id": 8,
     "title": "Visual Art",
     "imageId": "Art",
-    "location": "EEE",
+    "location": "EEE seminar hall",
     "timing": "01:30 - 02:30 ",
     "notice": "Express diverse themes, where your creativity knows no bounds",
     "rules": [
@@ -272,7 +272,7 @@
   {
     "id": 10,
     "title": "Controversy Clash",
-    "location": "Mech",
+    "location": "Mech seminar hall",
     "timing": "10:30 - 11:30",
     "description": "Debate is a process that involves formal discussion and oral addresses on a particular topic or collection of topics, often with a moderator and an audience. In a debate, arguments are put forward for common opposing viewpoints.",
     "imageId": "ControversyClash",
@@ -298,7 +298,7 @@
     "title": "Virtual War",
     "price": "30 for solo & 100 for squad",
     "imageId": "BGMI",
-    "location": "MBA seminar",
+    "location": "MBA seminar hall",
     "timing": "11:00 - 12:30 ",
     "rules": [
       {
@@ -341,7 +341,7 @@
   {
     "id": 11,
     "title": "Street Cricket",
-    "location": "BasketBall coat",
+    "location": "BasketBall Court",
     "timing": "10:30 - 3:30",
     "price":"200 per team",
     "imageId": "StreetCricket",
