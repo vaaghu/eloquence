@@ -155,7 +155,7 @@
           "Number of rounds depends on the number of teams.",
           "Discussing with other teams is strictly not allowed.",
           "Using a mobile phone during the event is strictly prohibited.",
-          "Someone seen breaking the rules will be disqualified.",
+          "Someone seen breaking the rules will be disqualified."
         ]
       }
     ],
@@ -350,11 +350,11 @@
       {
         "rules": [
           "The team-head should register for the event on behalf of the team",
-          "Umpire decision is final",
+          "Umpire decision is final"
         ]
       }
     ],
     "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Street+Cricket",
     "contacts": [{ "name": "Thejas", "number": 9003829145 }]
-  },
+  }
 ]
