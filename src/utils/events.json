@@ -142,22 +142,20 @@
   {
     "id": 5,
     "title": "Link Masters",
-    "location": "EEE",
+    "location": "MBA seminar hall",
     "timing": "02:00 - 03:30",
     "imageId": "Connections",
-    "notice": "Questions are related to both technical and non-technical.",
+    "notice": "Questions are related to non-technical only",
     "rules": [
       {
         "Rules": [
           "One team may contain a maximum of 3 members",
-          "Paper will be provided to each team.",
-          "Teams should fill the team details at the top right corner of the paper (separate time will be given).",
-          "Image will be shown on the screen, Everyone should write the corresponding answers on the paper. After every round the paper will be collected and evaluated.",
+          "Image will be projected on the screen, Everyone should write the corresponding answers on the paper. After every round the paper will be collected and evaluated.",
           "Difficulty of the questions will be increased level by level.",
           "Number of rounds depends on the number of teams.",
-          "Discussion within the team is allowed. Discussing with other teams is strictly not allowed.",
+          "Discussing with other teams is strictly not allowed.",
           "Using a mobile phone during the event is strictly prohibited.",
-          "Someone seen breaking the rules will be disqualified."
+          "Someone seen breaking the rules will be disqualified.",
         ]
       }
     ],
@@ -274,7 +272,7 @@
   {
     "id": 10,
     "title": "Controversy Clash",
-    "location": "MEch",
+    "location": "Mech",
     "timing": "10:30 - 11:30",
     "description": "Debate is a process that involves formal discussion and oral addresses on a particular topic or collection of topics, often with a moderator and an audience. In a debate, arguments are put forward for common opposing viewpoints.",
     "imageId": "ControversyClash",
@@ -339,5 +337,24 @@
         "number": 9080618420
       }
     ]
-  }
+  },
+  {
+    "id": 11,
+    "title": "Street Cricket",
+    "location": "BasketBall coat",
+    "timing": "10:30 - 3:30",
+    "price":"200 per team",
+    "imageId": "StreetCricket",
+    "notice": "Maximum of 6 members per team",
+    "rules": [
+      {
+        "rules": [
+          "The team-head should register for the event on behalf of the team",
+          "Umpire decision is final",
+        ]
+      }
+    ],
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScCrj9-GLvZk3jRXFLwKCvMPqFEu1P0Hy7Qby5OXa0F4hibkQ/viewform?usp=pp_url&entry.618272181=None&entry.1602371193=Street+Cricket",
+    "contacts": [{ "name": "Thejas", "number": 9003829145 }]
+  },
 ]
